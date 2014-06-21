@@ -1,2 +1,2 @@
 rm *.pdf -f
-rm *.tex -f
+rm resume.tex
