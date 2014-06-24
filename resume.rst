@@ -11,8 +11,7 @@ Objective
 
 -  Career in research, visualization, data acquisition, and signal
    processing
--  Engineering, research and development role in academia or industry,
-   Autumn 2014
+-  Engineering, research and development role in academia or industry
 
 Work Experience
 ---------------
@@ -27,8 +26,9 @@ Work Experience
 
    -  Developed OpenCL software for processing 3-D Doppler ultrasound
       data on the GPU
-   -  Presented onference abstract, poster, and proceedings
-   -  Pursuing pre-clinical feasibility study and peer-reviewed article
+   -  Presented results in conference abstract, poster, and proceedings
+   -  Completed pre-clinical feasibility study of cardiac vector flow
+      imaging and preparing peer-reviewed article
 
 -  **Duke University** (Durham, NC, USA)
 
@@ -36,23 +36,21 @@ Work Experience
 
    -  PhD project using ultrasound to noninvasively measure the heart's
       mechanical properties
-   -  Reviewed scientific literature, formulated and carried out
-      research plan
    -  Organized and conducted out pre-clinical trials at Duke University
       Medical Center
-   -  Presented results at conferences, published proceedings and
-      co-authored articles
+   -  Presented results in conferences, proceedings and co-authored
+      articles
 
 -  **Siemens Healthcare** (Issaquah, WA, USA)
 
    Graduate Student Research Intern, 2008
 
    -  Worked within a research team in a multinational corporation
-   -  Added multiple focal zone ARFI excitation option in research mode
-      of Acuson S2000 ultrasound scanner
-   -  `Learned version
+   -  Added multiple focal zone ARFI excitation to research mode of
+      Acuson S2000 ultrasound scanner
+   -  Learned `version
       control <http://www-03.ibm.com/software/products/en/clearcase>`__
-      and `IDE tools <http://www.visualstudio.com/>`__
+      and `IDE <http://www.visualstudio.com/>`__ tools
 
 Education
 ---------
@@ -85,19 +83,18 @@ Honors and Activities
 Skills
 ------
 
--  Expert in signal and imaging processing programming: Matlab, Python,
+-  Advanced signal and imaging processing programming: Matlab, Python,
    LabVIEW
--  Working knowlegde of other tools and languages: C/C++, OpenCL, R,
+-  Working knowlegde of many tools and languages: C/C++, OpenCL, R,
    Mathematica, MS Office
 -  Picked up for small web projects: PHP, Ruby/Rails, Perl, flavors of
-   SQL, HTML5, Javascript, `Git <http://git-scm.com/>`__, and
+   SQL, HTML5, Javascript, `Git <http://git-scm.com/>`__, Markdown, and
    `reStructuredText <http://docutils.sf.net/rst.html>`__
--  Strong focus on problem solving, signal and image analysis,
-   scientific computing, and experimental design
--  Self-motivated execution of a high-level plan with nominal oversight
+-  Focused on problem solving, signal and image analysis, scientific
+   computing, and experimental design
 -  Strong written and verbal communication, and data visualization
    display skills
--  Successful writer of fellowships, scholarships, and grants
+-  Successful writer of fellowships and scholarships
 
 Interests
 ---------
@@ -117,18 +114,22 @@ Interests
    Unit' <https://www.gov.uk/government/organisations/behavioural-insights-team>`__,
    the work of `Dan Ariely <http://danariely.com/>`__
 
-Journal Articles [1–10]
-~~~~~~~~~~~~~~~~~~~~~~~
+Journal Articles
+~~~~~~~~~~~~~~~~
 
-Abstracts and Proceedings [11–32]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1–10]
+
+Abstracts and Proceedings
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[11–32]
 
 .. raw:: html
 
    <div class="references">
 
-References
-----------
+Publications
+------------
 
 1. Fahey BJ, Nelson RC, Bradway DP, Hsu SJ, Dumont DM, et al. (2008) In
 vivo visualization of abdominal malignancies with acoustic radiation
@@ -234,7 +235,7 @@ Force Impulse (ARFI) methods: Temporal and spatial stability of shear
 wave velocimetry. In: 2010 iEEE international ultrasonics symposium.
 Department of Biomedical Engineering, Duke University, Durham, North
 Carolina; IEEE. pp. 698–701. Available:
-`http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5935946 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5935661 <http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5935946 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5935661>`__.
+http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5935946.
 
 20. Bradway DP, Hsu SJ, Wolf PD, Trahey GE (2010) Acoustic Radiation
 Force Impulse Imaging of Acute Myocardial Ischemia and Infarct. In:
