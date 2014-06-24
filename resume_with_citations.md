@@ -9,7 +9,7 @@ Durham, NC 27708 USA
 ##Objective
 
 *   Career in research, visualization, data acquisition, and signal processing
-*   Engineering, research and development role in academia or industry, Autumn 2014
+*   Engineering, research and development role in academia or industry
 
 ##Work Experience
 
@@ -22,25 +22,24 @@ Durham, NC 27708 USA
     Postdoctoral Researcher, 2013 - 2014
 
     -   Developed OpenCL software for processing 3-D Doppler ultrasound data on the GPU
-    -   Presented onference abstract, poster, and proceedings
-    -   Pursuing pre-clinical feasibility study and peer-reviewed article
+    -   Presented results in conference abstract, poster, and proceedings
+    -   Completed pre-clinical feasibility study of cardiac vector flow imaging and preparing peer-reviewed article
 
 *   **Duke University** (Durham, NC, USA)
 
     Graduate Research and Teaching Assistant, 2005 - 2013
 
     -   PhD project using ultrasound to noninvasively measure the heart's mechanical properties
-    -   Reviewed scientific literature, formulated and carried out research plan
     -   Organized and conducted out pre-clinical trials at Duke University Medical Center
-    -   Presented results at conferences, published proceedings and co-authored articles
+    -   Presented results in conferences, proceedings and co-authored articles
 
 *   **Siemens Healthcare** (Issaquah, WA, USA)
 
     Graduate Student Research Intern, 2008
 
     -   Worked within a research team in a multinational corporation
-    -   Added multiple focal zone ARFI excitation option in research mode of Acuson S2000 ultrasound scanner
-    -   [Learned version control](http://www-03.ibm.com/software/products/en/clearcase) and [IDE tools](http://www.visualstudio.com/)
+    -   Added multiple focal zone ARFI excitation to research mode of Acuson S2000 ultrasound scanner
+    -   Learned [version control](http://www-03.ibm.com/software/products/en/clearcase) and [IDE](http://www.visualstudio.com/) tools
 
 ##Education
 
@@ -62,13 +61,12 @@ Durham, NC 27708 USA
 
 ##Skills
 
-*   Expert in signal and imaging processing programming: Matlab, Python, LabVIEW
-*   Working knowlegde of other tools and languages: C/C++, OpenCL, R, Mathematica, MS Office
-*   Picked up for small web projects: PHP, Ruby/Rails, Perl, flavors of SQL, HTML5, Javascript, [Git](http://git-scm.com/), and [reStructuredText](http://docutils.sf.net/rst.html)
-*   Strong focus on problem solving, signal and image analysis, scientific computing, and experimental design
-*   Self-motivated execution of a high-level plan with nominal oversight
+*   Advanced signal and imaging processing programming: Matlab, Python, LabVIEW
+*   Working knowlegde of many tools and languages: C/C++, OpenCL, R, Mathematica, MS Office
+*   Picked up for small web projects: PHP, Ruby/Rails, Perl, flavors of SQL, HTML5, Javascript, [Git](http://git-scm.com/), Markdown, and [reStructuredText](http://docutils.sf.net/rst.html)
+*   Focused on problem solving, signal and image analysis, scientific computing, and experimental design
 *   Strong written and verbal communication, and data visualization display skills
-*   Successful writer of fellowships, scholarships, and grants
+*   Successful writer of fellowships and scholarships
 
 ##Interests
 
@@ -81,4 +79,4 @@ Durham, NC 27708 USA
 
 ###Abstracts and Proceedings [@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014]
 
-##References
+##Publications

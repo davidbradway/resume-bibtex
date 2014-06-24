@@ -8,3 +8,9 @@ pandoc -H margins.sty --bibliography mendeley.bib --csl plos.csl resume_with_cit
 
 # Make Word Doc
 pandoc -H margins.sty --bibliography mendeley.bib --csl plos.csl resume_with_citations.md -o resume.docx
+
+# Make HTML page
+pandoc -s --bibliography mendeley.bib --csl plos.csl resume_with_citations.md -o resume.html
+
+# Make ReST file
+pandoc -s -t rst --bibliography mendeley.bib --csl plos.csl resume_with_citations.md -o resume.rst
