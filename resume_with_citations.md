@@ -56,14 +56,14 @@ Durham, NC 27708 USA
 *   [Whitaker International Program Scholar](http://www.whitaker.org/grants/fellows-scholars)  (2013)
 *   [National Science Foundation Graduate Research Fellow](http://www.nsfgrfp.org/) (2005-2008)
 *   [Goldwater Research Scholar](https://goldwater.scholarsapply.org/) (2004-2005)
-*   [Founded engineering community service group at Ohio State](http://ecos.osu.edu/) (2003)
 *   [Organized engineering design and build trip to Honduran orphanage](http://www.montanadeluz.org/) (2004)
+*   [Founded engineering community service group at Ohio State](http://ecos.osu.edu/) (2003)
 
 ##Skills
 
 *   Advanced signal and imaging processing programming: Matlab, Python, LabVIEW
-*   Working knowlegde of many tools and languages: C/C++, OpenCL, R, Mathematica, MS Office
-*   Picked up for small web projects: PHP, Ruby/Rails, Perl, flavors of SQL, HTML5, Javascript, [Git](http://git-scm.com/), Markdown, and [reStructuredText](http://docutils.sf.net/rst.html)
+*   Working knowlegde of many tools and languages: [Git](http://git-scm.com/), C/C++, OpenCL, R, Mathematica, MS Office, and Markdown
+*   Picked up for small web projects: PHP, Ruby/Rails, Perl, flavors of SQL, HTML5, Javascript, and [reStructuredText](http://docutils.sf.net/rst.html)
 *   Focused on problem solving, signal and image analysis, scientific computing, and experimental design
 *   Strong written and verbal communication, and data visualization display skills
 *   Successful writer of fellowships and scholarships
