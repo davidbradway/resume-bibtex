@@ -71,24 +71,27 @@ Honors and Activities
 
 -  `Whitaker International Program
    Scholar <http://www.whitaker.org/grants/fellows-scholars>`__ (2013)
+-  Student Travel Support IEEE International Ultrasonics
+   Symposium, Dresden, Germany (2012)
 -  `National Science Foundation Graduate Research
    Fellow <http://www.nsfgrfp.org/>`__ (2005-2008)
 -  `Goldwater Research Scholar <https://goldwater.scholarsapply.org/>`__
    (2004-2005)
--  `Founded engineering community service group at Ohio
-   State <http://ecos.osu.edu/>`__ (2003)
 -  `Organized engineering design and build trip to Honduran
    orphanage <http://www.montanadeluz.org/>`__ (2004)
+-  `Founded engineering community service group at Ohio
+   State <http://ecos.osu.edu/>`__ (2003)
 
 Skills
 ------
 
 -  Advanced signal and imaging processing programming: Matlab, Python,
    LabVIEW
--  Working knowlegde of many tools and languages: C/C++, OpenCL, R,
-   Mathematica, MS Office
+-  Working knowlegde of many tools and languages:
+   `Git <http://git-scm.com/>`__, C/C++, OpenCL, R, Mathematica, MS
+   Office, and Markdown
 -  Picked up for small web projects: PHP, Ruby/Rails, Perl, flavors of
-   SQL, HTML5, Javascript, `Git <http://git-scm.com/>`__, Markdown, and
+   SQL, HTML5, Javascript, and
    `reStructuredText <http://docutils.sf.net/rst.html>`__
 -  Focused on problem solving, signal and image analysis, scientific
    computing, and experimental design
@@ -96,23 +99,32 @@ Skills
    display skills
 -  Successful writer of fellowships and scholarships
 
+Professional Activities
+-----------------------
+
+-  Early Career Professional Development in Medical Imaging Workshop,
+   SPIE Medical Imaging 2015
+-  Reviewer for Ultrasound in Medicine and Biology
+
+Submitted proposals
+-------------------
+
+-  "Sensor-enabled Ultrasound Probes for Volumetric Image Acquisition
+   and Interpretation: Proof of Concept in Pediatric Appendicitis". Duke
+   – Wallace H. Coulter Translational Research Grants Program
+-  "Portable Ultrasound Device for Staging Liver Fibrosis". Duke –
+   Wallace H. Coulter Translational Research Grants Program
+
 Interests
 ---------
 
 -  Tracking Energy efficiency:
-   `TED5000 <http://www.theenergydetective.com/>`__ owner,
-   `Plotwatt <plotwatt.com>`__ user, `Neurio <https://neur.io/>`__
-   backer, `MS Hohm <en.wikipedia.org/wiki/Hohm>`__ & `Google
-   PowerMeter <google.com/powermeter/about/>`__ ex-user
--  Creating tools to close feedback loops: measure data, effect change,
-   and automate it
--  Personal 'hacking' in mobile and embedded systems:
+   `TED5000 <http://www.theenergydetective.com/>`__,
+   `Plotwatt <plotwatt.com>`__, `Neurio <https://neur.io/>`__
+-  Personal projects in mobile and embedded systems:
    `Arduino <http://www.arduino.cc/>`__, `Raspberry
    Pi <http://www.raspberrypi.org/>`__,
    `Android <http://www.android.com/>`__
--  Behavioral Economics and decision making: the UK's `'Nudge
-   Unit' <https://www.gov.uk/government/organisations/behavioural-insights-team>`__,
-   the work of `Dan Ariely <http://danariely.com/>`__
 
 Journal Articles
 ~~~~~~~~~~~~~~~~
@@ -122,7 +134,7 @@ Journal Articles
 Abstracts and Proceedings
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[11–32]
+[11–33]
 
 .. raw:: html
 
@@ -268,7 +280,7 @@ Available: http://dx.doi.org/10.1109/ULTSYM.2011.0007.
 25. Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012)
 Feasibility and Safety of Transthoracic Cardiac Acoustic Radiation Force
 Impulse Imaging and Shear Wave Elasticity Imaging Methods. In: IUS
-symposium 20122.
+symposium 2012.
 
 26. Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012)
 Transthoracic Cardiac Acoustic Radiation Force Impulse Imaging: in vivo
@@ -305,10 +317,15 @@ radiation force impulse imaging on an IVUS circular array. In: 2013 iEEE
 international ultrasonics symposium (iUS). IEEE. pp. 773–776. Available:
 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6725302.
 
-32. Bradway DP, Pihl MJ, Krebs A, Tomov BG, Kjaer CS, et al. (2014)
+32. Bradway DP, Pihl MJ, Krebs A, Tomov BG, Kjær CS, et al. (2014)
 Real-time GPU implementation of transverse oscillation vector velocity
-flow imaging. In: SPIE medical imaging. Available:
-http://dx.doi.org/10.1117/12.2043582.
+flow imaging. In: SPIE medical imaging.Vol. 9040. pp. 90401Y–90401Y–6.
+Available: http://dx.doi.org/10.1117/12.2043582.
+
+33. Bradway DP, Hansen KL, Nielsen MB, Jensen JA (2015) Transverse
+oscillation vector flow imaging for transthoracic echocardiography. In:
+SPIE medical imaging. pp. 941902–941902–7. Available:
+http://dx.doi.org/10.1117/12.2081145.
 
 .. raw:: html
 

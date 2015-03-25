@@ -1,10 +1,12 @@
 \documentclass[]{article}
+\usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
 \else % if luatex or xelatex
   \ifxetex
@@ -16,8 +18,6 @@
   \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
   \newcommand{\euro}{€}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
 \ifxetex
@@ -42,6 +42,8 @@
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \setcounter{secnumdepth}{0}
 
+\author{}
+\date{}
 \usepackage[vmargin=1in,hmargin=1in]{geometry}
 
 \begin{document}
@@ -146,17 +148,20 @@ Engineering\\Duke University\\Durham, NC 27708 USA
   \href{http://www.whitaker.org/grants/fellows-scholars}{Whitaker
   International Program Scholar} (2013)
 \item
+  Student~Travel~Support IEEE International Ultrasonics
+  Symposium,~Dresden, Germany (2012)
+\item
   \href{http://www.nsfgrfp.org/}{National Science Foundation Graduate
   Research Fellow} (2005-2008)
 \item
   \href{https://goldwater.scholarsapply.org/}{Goldwater Research
   Scholar} (2004-2005)
 \item
-  \href{http://ecos.osu.edu/}{Founded engineering community service
-  group at Ohio State} (2003)
-\item
   \href{http://www.montanadeluz.org/}{Organized engineering design and
   build trip to Honduran orphanage} (2004)
+\item
+  \href{http://ecos.osu.edu/}{Founded engineering community service
+  group at Ohio State} (2003)
 \end{itemize}
 
 \subsection{Skills}\label{skills}
@@ -167,11 +172,12 @@ Engineering\\Duke University\\Durham, NC 27708 USA
   Advanced signal and imaging processing programming: Matlab, Python,
   LabVIEW
 \item
-  Working knowlegde of many tools and languages: C/C++, OpenCL, R,
-  Mathematica, MS Office
+  Working knowlegde of many tools and languages:
+  \href{http://git-scm.com/}{Git}, C/C++, OpenCL, R, Mathematica, MS
+  Office, and Markdown
 \item
   Picked up for small web projects: PHP, Ruby/Rails, Perl, flavors of
-  SQL, HTML5, Javascript, \href{http://git-scm.com/}{Git}, Markdown, and
+  SQL, HTML5, Javascript, and
   \href{http://docutils.sf.net/rst.html}{reStructuredText}
 \item
   Focused on problem solving, signal and image analysis, scientific
@@ -183,28 +189,43 @@ Engineering\\Duke University\\Durham, NC 27708 USA
   Successful writer of fellowships and scholarships
 \end{itemize}
 
+\subsection{Professional Activities}\label{professional-activities}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Early Career Professional Development in Medical Imaging Workshop,
+  SPIE Medical Imaging 2015
+\item
+  Reviewer for Ultrasound in Medicine and Biology
+\end{itemize}
+
+\subsection{Submitted proposals}\label{submitted-proposals}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  ``Sensor-enabled Ultrasound Probes for Volumetric Image Acquisition
+  and Interpretation: Proof of Concept in Pediatric Appendicitis''. Duke
+  -- Wallace H. Coulter Translational Research Grants Program
+\item
+  ``Portable Ultrasound Device for Staging Liver Fibrosis''. Duke --
+  Wallace H. Coulter Translational Research Grants Program
+\end{itemize}
+
 \subsection{Interests}\label{interests}
 
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
   Tracking Energy efficiency:
-  \href{http://www.theenergydetective.com/}{TED5000} owner,
-  \href{plotwatt.com}{Plotwatt} user, \href{https://neur.io/}{Neurio}
-  backer, \href{en.wikipedia.org/wiki/Hohm}{MS Hohm} \&
-  \href{google.com/powermeter/about/}{Google PowerMeter} ex-user
+  \href{http://www.theenergydetective.com/}{TED5000},
+  \href{plotwatt.com}{Plotwatt}, \href{https://neur.io/}{Neurio}
 \item
-  Creating tools to close feedback loops: measure data, effect change,
-  and automate it
-\item
-  Personal `hacking' in mobile and embedded systems:
+  Personal projects in mobile and embedded systems:
   \href{http://www.arduino.cc/}{Arduino},
   \href{http://www.raspberrypi.org/}{Raspberry Pi},
   \href{http://www.android.com/}{Android}
-\item
-  Behavioral Economics and decision making: the UK's
-  \href{https://www.gov.uk/government/organisations/behavioural-insights-team}{`Nudge
-  Unit'}, the work of \href{http://danariely.com/}{Dan Ariely}
 \end{itemize}
 
 \subsubsection{Journal Articles}\label{journal-articles}
@@ -214,10 +235,9 @@ Engineering\\Duke University\\Durham, NC 27708 USA
 \subsubsection{Abstracts and
 Proceedings}\label{abstracts-and-proceedings}
 
-{[}11--32{]}
+{[}11--33{]}
 
-\subsection*{Publications}\label{publications}
-\addcontentsline{toc}{subsection}{Publications}
+\subsection{Publications}\label{publications}
 
 1. Fahey BJ, Nelson RC, Bradway DP, Hsu SJ, Dumont DM, et al. (2008) In
 vivo visualization of abdominal malignancies with acoustic radiation
@@ -356,7 +376,7 @@ Available: \url{http://dx.doi.org/10.1109/ULTSYM.2011.0007}.
 25. Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012)
 Feasibility and Safety of Transthoracic Cardiac Acoustic Radiation Force
 Impulse Imaging and Shear Wave Elasticity Imaging Methods. In: IUS
-symposium 20122.
+symposium 2012.
 
 26. Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012)
 Transthoracic Cardiac Acoustic Radiation Force Impulse Imaging: in vivo
@@ -394,9 +414,14 @@ international ultrasonics symposium (iUS). IEEE. pp. 773--776.
 Available:
 \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6725302}.
 
-32. Bradway DP, Pihl MJ, Krebs A, Tomov BG, Kjaer CS, et al. (2014)
+32. Bradway DP, Pihl MJ, Krebs A, Tomov BG, Kjær CS, et al. (2014)
 Real-time GPU implementation of transverse oscillation vector velocity
-flow imaging. In: SPIE medical imaging. Available:
-\url{http://dx.doi.org/10.1117/12.2043582}.
+flow imaging. In: SPIE medical imaging.Vol. 9040. pp. 90401Y--90401Y--6.
+Available: \url{http://dx.doi.org/10.1117/12.2043582}.
+
+33. Bradway DP, Hansen KL, Nielsen MB, Jensen JA (2015) Transverse
+oscillation vector flow imaging for transthoracic echocardiography. In:
+SPIE medical imaging. pp. 941902--941902--7. Available:
+\url{http://dx.doi.org/10.1117/12.2081145}.
 
 \end{document}
