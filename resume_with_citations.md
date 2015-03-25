@@ -54,6 +54,7 @@ Durham, NC 27708 USA
 ##Honors and Activities
 
 *   [Whitaker International Program Scholar](http://www.whitaker.org/grants/fellows-scholars)  (2013)
+*   Student Travel Support IEEE International Ultrasonics Symposium, Dresden, Germany (2012)
 *   [National Science Foundation Graduate Research Fellow](http://www.nsfgrfp.org/) (2005-2008)
 *   [Goldwater Research Scholar](https://goldwater.scholarsapply.org/) (2004-2005)
 *   [Organized engineering design and build trip to Honduran orphanage](http://www.montanadeluz.org/) (2004)
@@ -68,17 +69,25 @@ Durham, NC 27708 USA
 *   Strong written and verbal communication, and data visualization display skills
 *   Successful writer of fellowships and scholarships
 
+##Professional Activities
+
+*   Early Career Professional Development in Medical Imaging Workshop, SPIE Medical Imaging 2015
+*   Reviewer for Ultrasound in Medicine and Biology
+
+##Submitted proposals
+
+*   "Sensor-enabled Ultrasound Probes for Volumetric Image Acquisition and Interpretation: Proof of Concept in Pediatric Appendicitis". Duke – Wallace H. Coulter Translational Research Grants Program
+*   "Portable Ultrasound Device for Staging Liver Fibrosis". Duke – Wallace H. Coulter Translational Research Grants Program
+
 ##Interests
 
-*   Tracking Energy efficiency: [TED5000](http://www.theenergydetective.com/) owner, [Plotwatt](plotwatt.com) user, [Neurio](https://neur.io/) backer, [MS Hohm](en.wikipedia.org/wiki/Hohm) & [Google PowerMeter](google.com/powermeter/about/) ex-user
-*   Creating tools to close feedback loops: measure data, effect change, and automate it
-*   Personal 'hacking' in mobile and embedded systems: [Arduino](http://www.arduino.cc/), [Raspberry Pi](http://www.raspberrypi.org/), [Android](http://www.android.com/)
-*   Behavioral Economics and decision making: the UK's ['Nudge Unit'](https://www.gov.uk/government/organisations/behavioural-insights-team), the work of [Dan Ariely](http://danariely.com/)
+*   Tracking Energy efficiency: [TED5000](http://www.theenergydetective.com/), [Plotwatt](plotwatt.com), [Neurio](https://neur.io/)
+*   Personal projects in mobile and embedded systems: [Arduino](http://www.arduino.cc/), [Raspberry Pi](http://www.raspberrypi.org/), [Android](http://www.android.com/)
 
 ###Journal Articles
 [@Fahey2008a;@Fahey2008c;@Nightingale2008;@Nightingale2009;@Wolf2011;@Eyerly2012;@Hollender2013;@Hollender2013b;@Patel2014;@Eyerly2014]
 
 ###Abstracts and Proceedings
-[@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014]
+[@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014;@Bradway2015]
 
 ##Publications
