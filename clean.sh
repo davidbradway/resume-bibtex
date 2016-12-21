@@ -1,2 +1,9 @@
-rm *.pdf -f
-rm resume.tex
+rm resume.tex 
+rm resume.synctex.gz
+rm resume.rst
+rm resume.out
+rm resume.log
+rm resume.docx
+rm resume.html
+rm resume.aux
+rm resume.pdf
