@@ -136,12 +136,12 @@ Skills
 Journal Articles
 ~~~~~~~~~~~~~~~~
 
-[1–12]
+[1–11]
 
 Abstracts and Proceedings
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[13–35]
+[12–34]
 
 .. raw:: html
 
@@ -164,10 +164,9 @@ doi:\ `10.1016/j.ultrasmedbio.2008.03.006 <http://dx.doi.org/10.1016/j.ultrasmed
 3. Nightingale K, Palmeri M, Zhai L, Frinkley K, Wang M, et al. (KR)
 Impulsive acoustic radiation force: imaging approaches and clinical
 applications. The Journal of the Acoustical Society of America 123:
-3792. Available:
-http://scitation.aip.org/content/asa/journal/jasa/123/5/10.1121/1.2935460.
+3792. doi:\ `10.1121/1.2935460 <http://dx.doi.org/10.1121/1.2935460>`__
 
-4. NIGHTINGALE K, PALMERI M, DAHL J, BRADWAY D, HSU S, et al. (2009)
+4. Nightingale K, Palmeri M, Dahl J, Bradway D, Hsu S, et al. (2009)
 Elasticity imaging with acoustic radiation force: Methods and clinical
 applications. Japanese journal of medical ultrasonics 36: 116.
 
@@ -175,8 +174,7 @@ applications. Japanese journal of medical ultrasonics 36: 116.
 Near real time evaluation of cardiac radiofrequency ablation lesions
 with intracardiac echocardiography based acoustic radiation force
 impulse imaging. The Journal of the Acoustical Society of America 129:
-2438. Available:
-http://scitation.aip.org/content/asa/journal/jasa/129/4/10.1121/1.3587978.
+2438. doi:\ `10.1121/1.3587978 <http://dx.doi.org/10.1121/1.3587978>`__
 
 6. Eyerly SA, Bahnson TD, Koontz JI, Bradway DP, Dumont DM, et al.
 (2012) Intracardiac acoustic radiation force impulse imaging: A novel
@@ -186,161 +184,154 @@ lesions. Heart rhythm: the official journal of the Heart Rhythm Society
 doi:\ `10.1016/j.hrthm.2012.07.003 <http://dx.doi.org/10.1016/j.hrthm.2012.07.003>`__
 
 7. Hollender P, Bradway D, Wolf P, Goswami R, Trahey G (2013)
-Intracardiac acoustic radiation force impulse (ARFI) and shear wave
-imaging in pigs with focal infarctions. IEEE transactions on
-ultrasonics, ferroelectrics, and frequency control 60: 1669–1682.
-Available:
-http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6573445.
-
-8. Hollender P, Bradway D, Wolf P, Goswami R, Trahey G (2013)
 Intracardiac acoustic radiation force impulse (aRFI) and shear wave
 imaging in pigs with focal infarctions. IEEE transactions on
 ultrasonics, ferroelectrics, and frequency control 60: 1669–1682.
 doi:\ `10.1109/TUFFC.2013.2749 <http://dx.doi.org/10.1109/TUFFC.2013.2749>`__
 
-9. Patel V, Dahl JJ, Bradway DP, Doherty JR, Lee SY, et al. (2014)
+8. Patel V, Dahl JJ, Bradway DP, Doherty JR, Lee SY, et al. (2014)
 Acoustic Radiation Force Impulse Imaging (ARFI) on an IVUS Circular
 Array. Ultrasonic Imaging 36: 98–111.
 doi:\ `10.1177/0161734613511595 <http://dx.doi.org/10.1177/0161734613511595>`__
 
-10. Eyerly SA, Bahnson TD, Koontz JI, Bradway DP, Dumont DM, et al.
+9. Eyerly SA, Bahnson TD, Koontz JI, Bradway DP, Dumont DM, et al.
 (2014) Contrast in Intracardiac Acoustic Radiation Force Impulse Images
 of Radiofrequency Ablation Lesions. Ultrasonic Imaging 36: 133–148.
 doi:\ `10.1177/0161734613519602 <http://dx.doi.org/10.1177/0161734613519602>`__
 
-11. Jensen JA, Rasmussen MF, Pihl MJ, Holbek S, Villagómez HCA, et al.
+10. Jensen JA, Rasmussen MF, Pihl MJ, Holbek S, Villagómez HCA, et al.
 (2016) Safety assessment of advanced imaging sequences i: Measurements.
 IEEE transactions on ultrasonics, ferroelectrics, and frequency control
 63: 110–119.
 doi:\ `10.1109/TUFFC.2015.2502987 <http://dx.doi.org/10.1109/TUFFC.2015.2502987>`__
 
-12. Bottenus N, Long W, Zhang H, Jakovljevic M, Bradway D, et al. (2016)
+11. Bottenus N, Long W, Zhang H, Jakovljevic M, Bradway D, et al. (2016)
 Feasibility of swept synthetic aperture ultrasound imaging.
 doi:\ `10.1109/TMI.2016.2524992 <http://dx.doi.org/10.1109/TMI.2016.2524992>`__
 
-13. Hsu SJ, Bradway DP, Fahey BJ, Trahey GE (2007) Transthoracic
+12. Hsu SJ, Bradway DP, Fahey BJ, Trahey GE (2007) Transthoracic
 Acoustic Radiation Force Impulse Imaging of the Cardiac Cycle. In:
 Ultrasonic measurement and imaging of tissue elasticity.
 
-14. Bradway DP, Hsu SJ, Fahey BJ, Dahl JJ, Nichols TC, et al. (2007)
+13. Bradway DP, Hsu SJ, Fahey BJ, Dahl JJ, Nichols TC, et al. (2007)
 6B-6 Transthoracic Cardiac Acoustic Radiation Force Impulse Imaging: A
-Feasibility Study. Ieee. pp. 448–451. Available:
-http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4409694.
+Feasibility Study. IEEE. pp. 448–451.
+doi:\ `10.1109/ULTSYM.2007.121 <http://dx.doi.org/10.1109/ULTSYM.2007.121>`__
 
-15. Fahey BJ, Nelson RC, Hsu SJ, Bradway DP, Dumont DM, et al. (2007)
+14. Fahey BJ, Nelson RC, Hsu SJ, Bradway DP, Dumont DM, et al. (2007)
 6B-4 In Vivo Acoustic Radiation Force Impulse Imaging of Abdominal
-Lesions. In: 2007 iEEE ultrasonics symposium proceedings. Ieee. pp.
-440–443. Available:
-http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4409692.
+Lesions. In: 2007 iEEE ultrasonics symposium proceedings. IEEE. pp.
+440–443.
+doi:\ `10.1109/ULTSYM.2007.119 <http://dx.doi.org/10.1109/ULTSYM.2007.119>`__
 
-16. Bradway DP, Fahey BJ, Nelson RC, Trahey GE (2009) ARFI imaging of
+15. Bradway DP, Fahey BJ, Nelson RC, Trahey GE (2009) ARFI imaging of
 abdominal ablation and liver lesion biopsy. In: International symposium
 on ultrasonic imaging and tissue characterization, 2009. Available:
 http://uitc-symposium.org/2009_abstracts.pdf.
 
-17. Husarik D, Nelson RC, Bradway DP, Fahey BJ, Nightingale KR, et al.
+16. Husarik D, Nelson RC, Bradway DP, Fahey BJ, Nightingale KR, et al.
 (2009) First Clinical Experience with Sonographic Elastography of the
 Liver Using Acoustic Radiation Force Impulse (ARFI) Imaging. In: RSNA.
 Available: http://rsna2009.rsna.org/search.
 
-18. Nelson RC, Bradway DP, Fahey BJ, Trahey GE (2009) Future Application
+17. Nelson RC, Bradway DP, Fahey BJ, Trahey GE (2009) Future Application
 of Ultrasound: Acoustic Radiation Force Impulse (ARFI) Imaging. In:
 AIUM. Available:
 http://www.aium.org/loginRequired/membersOnly/proceedings/2009.pdf.
 
-19. Bradway DP, Fahey BJ, Nelson RC, Trahey GE (2009) Recent Clinical
+18. Bradway DP, Fahey BJ, Nelson RC, Trahey GE (2009) Recent Clinical
 Results of Acoustic Radiation Force Impulse Imaging of Abdominal
 Ablation. In: International tissue elasticity conference. Available:
 http://www.elasticityconference.org/prior_conf/2009/PDF/2009Proceedings.pdf.
 
-20. Hsu SJ, Bradway DP, Bouchard RR, Hollender PJ, Wolf PD, et al.
+19. Hsu SJ, Bradway DP, Bouchard RR, Hollender PJ, Wolf PD, et al.
 (2010) Parametric pressure-volume analysis and acoustic radiation force
 impulse imaging of left ventricular function. In: 2010 iEEE
-international ultrasonics symposium. Ieee. pp. 698–701.
+international ultrasonics symposium. IEEE. pp. 698–701.
 doi:\ `10.1109/ULTSYM.2010.5935661 <http://dx.doi.org/10.1109/ULTSYM.2010.5935661>`__
 
-21. Hollender PJ, Bouchard RR, Hsu SJ, Bradway DP, Wolf PD, et al.
+20. Hollender PJ, Bouchard RR, Hsu SJ, Bradway DP, Wolf PD, et al.
 (2010) Intracardiac measurements of elasticity using Acoustic Radiation
 Force Impulse (ARFI) methods: Temporal and spatial stability of shear
 wave velocimetry. In: 2010 iEEE international ultrasonics symposium.
 IEEE. pp. 698–701.
 doi:\ `10.1109/ULTSYM.2010.5935946 <http://dx.doi.org/10.1109/ULTSYM.2010.5935946>`__
 
-22. Bradway DP, Hsu SJ, Wolf PD, Trahey GE (2010) Acoustic Radiation
+21. Bradway DP, Hsu SJ, Wolf PD, Trahey GE (2010) Acoustic Radiation
 Force Impulse Imaging of Acute Myocardial Ischemia and Infarct. In:
 International symposium on ultrasonic imaging and tissue
 characterization. Available:
 http://uitc-symposium.org/2010_abstracts.pdf.
 
-23. Bradway DP, Hsu SJ, Wolf PD, Trahey GE (2010) Transthoracic Acoustic
+22. Bradway DP, Hsu SJ, Wolf PD, Trahey GE (2010) Transthoracic Acoustic
 Radiation Force Impulse Imaging of Cardiac Function. In: International
 tissue elasticity conference. Available:
 http://www.elasticityconference.org/prior_conf/2010/PDF/2010Proceedings.pdf.
 
-24. Bradway DP, Rosenzweig SR, Doherty JR, Hyun D, Trahey GE (2011)
+23. Bradway DP, Rosenzweig SR, Doherty JR, Hyun D, Trahey GE (2011)
 Recent Results and Advances in Transthoracic Cardiac Acoustic Radiation
 Force Impulse Imaging. In: International symposium on ultrasonic imaging
 and tissue characterization. Available:
 http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf.
 
-25. Byram BC, Gianantonio DM, Bradway DP, Hyun D, Jakovljevic M, et al.
+24. Byram BC, Gianantonio DM, Bradway DP, Hyun D, Jakovljevic M, et al.
 (2011) Direct in vivo Myocardial Infarct Visualization Using 3D
 Ultrasound and Passive Strain Contrast. In: International tissue
 elasticity conference. Available:
 http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf.
 
-26. Byram BC, Bradway DP, Jakovljevic M, Gianantonio D, Hyun D, et al.
+25. Byram BC, Bradway DP, Jakovljevic M, Gianantonio D, Hyun D, et al.
 (2011) Direct In Vivo Myocardial Infarct Visualization Using 3D
 Ultrasound and Passive Strain Contrast. In: IEEE ultrasonics symp.
 doi:\ `10.1109/ULTSYM.2011.0007 <http://dx.doi.org/10.1109/ULTSYM.2011.0007>`__
 
-27. Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012)
+26. Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012)
 Feasibility and safety of transthoracic cardiac acoustic radiation force
 impulse imaging methods. In: 2012 iEEE international ultrasonics
 symposium. IEEE. pp. 2027–2030.
 doi:\ `10.1109/ULTSYM.2012.0507 <http://dx.doi.org/10.1109/ULTSYM.2012.0507>`__
 
-28. Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012)
+27. Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012)
 Transthoracic Cardiac Acoustic Radiation Force Impulse Imaging: in vivo
 Feasibility, Methods, and Initial Results. In: International symposium
 on ultrasonic imaging and tissue characterization, 2012. Available:
 http://uitc-symposium.org/2012_abstracts.pdf.
 
-29. Hollender PJ, Bradway DP, Goswami R, Wolf PD, Trahey GE (2012)
+28. Hollender PJ, Bradway DP, Goswami R, Wolf PD, Trahey GE (2012)
 Acoustic radiation force techniques for imaging cardiac infarct in vivo:
 methods and initial results. In: International symposium on ultrasonic
 imaging and tissue characterization. Available:
 http://uitc-symposium.org/2012_abstracts.pdf.
 
-30. Eyerly SA, Bahnson T, Koontz J, Bradway DP, Dumont D, et al. (2012)
+29. Eyerly SA, Bahnson T, Koontz J, Bradway DP, Dumont D, et al. (2012)
 Confirmation of Cardiac Radiofrequency Ablation Treatment Using
 Intra-Procedure Acoustic Radiation Force Impulse Imaging. In: IEEE
 ultrasonics symposium.
 doi:\ `10.1109/ULTSYM.2012.0509 <http://dx.doi.org/10.1109/ULTSYM.2012.0509>`__
 
-31. Hollender PJ, Bradway DP, Wolf PD, Goswami R, Trahey GE (2012)
+30. Hollender PJ, Bradway DP, Wolf PD, Goswami R, Trahey GE (2012)
 Intracardiac ARF-driven Shear Wave Velocimetry to Estimate Regional
 Myocardial Stiffness and Contractility in Pigs with Focal Infarctions.
 In: IEEE ultrasonics symposium.
 doi:\ `10.1109/ULTSYM.2012.0508 <http://dx.doi.org/10.1109/ULTSYM.2012.0508>`__
 
-32. Goswami R, Bradway D, Kisslo J, Trahey G (2013) Novel Application of
+31. Goswami R, Bradway D, Kisslo J, Trahey G (2013) Novel Application of
 Acoustic Radiation Force Impulse Imaging in Transthoracic
 Echocardiography. In: Journal of the american college of cardiology.
 American College of Cardiology Foundation, Vol. 61. p. E1090.
 doi:\ `10.1016/S0735-1097(13)61090-6 <http://dx.doi.org/10.1016/S0735-1097(13)61090-6>`__
 
-33. Patel V, Dahl JJ, Bradway DP, Doherty JR, Smith SW (2013) Acoustic
+32. Patel V, Dahl JJ, Bradway DP, Doherty JR, Smith SW (2013) Acoustic
 radiation force impulse imaging on an IVUS circular array. In: 2013 iEEE
 international ultrasonics symposium (iUS). IEEE. pp. 773–776.
 doi:\ `10.1109/ULTSYM.2013.0199 <http://dx.doi.org/10.1109/ULTSYM.2013.0199>`__
 
-34. Bradway DP, Pihl MJ, Krebs A, Tomov BG, Kjær CS, et al. (2014)
+33. Bradway DP, Pihl MJ, Krebs andreas, Tomov BG, Kjær CS, et al. (2014)
 Real-time GPU implementation of transverse oscillation vector velocity
 flow imaging. In: SPIE medical imaging.Vol. 9040. pp. 90401Y–90401Y–6.
 doi:\ `10.1117/12.2043582 <http://dx.doi.org/10.1117/12.2043582>`__
 
-35. Bradway DP, Hansen KL, Nielsen MB, Jensen JA (2015) Transverse
+34. Bradway DP, Hansen KL, Nielsen MB, Jensen JA (2015) Transverse
 oscillation vector flow imaging for transthoracic echocardiography. In:
 SPIE medical imaging. pp. 941902–941902–7.
 doi:\ `10.1117/12.2081145 <http://dx.doi.org/10.1117/12.2081145>`__
