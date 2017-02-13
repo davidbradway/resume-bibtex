@@ -88,7 +88,7 @@ Durham, NC 27708 USA
 
 ##Skills
 *   Advanced signal and imaging processing programming: Matlab and Python
-*   Working knowlegde of many tools and languages: [Git](http://git-scm.com/), C/C++, OpenCL/CUDA, MS Office, and Markdown
+*   Working knowledge of many tools and languages: [Git](http://git-scm.com/), C/C++, OpenCL/CUDA, MS Office, and Markdown
 *   Focused on problem solving, signal and image analysis, scientific computing, and experimental design
 *   Strong written and verbal communication, and data visualization display skills
 *   Successful writer of fellowships and scholarships
