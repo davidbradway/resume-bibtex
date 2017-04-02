@@ -18,13 +18,17 @@ Durham, NC 27708 USA
 
     Research Scientist, 2014 - present
 
+    -   Managing clinical trials on Short-Lag Spatial Coherence (SLSC) imaging in fetal clinic
+    -   Working with graduate students on their dissertation projects
+    -   Contributed to several grant applications, one of which was successfully funded by the NIH
+
 *   **Technical University of Denmark (DTU)** (Kongens Lyngby, Denmark)
 
     Postdoctoral Researcher, 2013 - 2014
 
     -   Developed OpenCL software for processing 3-D Doppler ultrasound data on the GPU
-    -   Presented results in conference abstract, poster, and proceedings
-    -   Completed pre-clinical feasibility study of cardiac vector flow imaging and preparing peer-reviewed article
+    -   Presented results - one conference presentation, one poster, and two proceedings (SPIE 2014 & 2015)
+    -   Examined feasibility of transthoracic cardiac vector flow imaging on a phased-array probe
 
 *   **Duke University** (Durham, NC, USA)
 
@@ -38,9 +42,9 @@ Durham, NC 27708 USA
 
     Graduate Student Research Intern, 2008
 
-    -   Worked within a research team in a multinational corporation
+    -   Worked within a research and development team in a large corporation
     -   Added multiple focal zone ARFI excitation to research mode of Acuson S2000 ultrasound scanner
-    -   Learned [version control](http://www-03.ibm.com/software/products/en/clearcase) and [IDE](http://www.visualstudio.com/) tools
+    -   Learned [version control](http://www-03.ibm.com/software/products/en/clearcase) and [MS Visual Studio IDE](http://www.visualstudio.com/) tools
 
 ##Education
 
@@ -58,12 +62,10 @@ Durham, NC 27708 USA
 *   Guest lecturer for Biomedical Engineering 590 (2016)
 *   Instructor at "International Summer School on Advanced Ultrasound Imaging", Technical University of Denmark (June 2015)
 
-
 ##Invention Disclosures and Patents
 
 *   Duke IDF #4547: "Low-Cost, Portable Ultrasound Shear Wave Device for Characterization of Material Viscoelasticity" 
 *   Duke IDF #540: "Visual Feedback for Improved Triggered Acquisitions for Ultrasound Imaging"
-
 
 ##Honors and Activities
 
@@ -73,7 +75,6 @@ Durham, NC 27708 USA
 *   [Goldwater Research Scholar](https://goldwater.scholarsapply.org/) (2004-2005)
 *   [Organized engineering design and build trip to Honduran orphanage](http://www.montanadeluz.org/) (2004)
 *   [Founded engineering community service group at Ohio State](http://ecos.osu.edu/) (2003)
-
 
 ##Professional Activities
 
@@ -98,6 +99,6 @@ Durham, NC 27708 USA
 [@Fahey2008a;@Fahey2008c;@Nightingale2008;@Nightingale2009;@Wolf2011;@Eyerly2012;@Hollender2013;@Patel2014;@Eyerly2014;@jensen2016;@bottenus2016]
 
 ###Abstracts and Proceedings
-[@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014;@Bradway2015]
+[@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014;@Bradway2015,@Bottenus2015,@Kakkad2015]
 
 ##Publications
