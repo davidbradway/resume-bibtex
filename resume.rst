@@ -21,15 +21,22 @@ Work Experience
 
    Research Scientist, 2014 - present
 
+   -  Managing clinical trials on Short-Lag Spatial Coherence (SLSC)
+      imaging in fetal clinic
+   -  Working with graduate students on their dissertation projects
+   -  Contributed to several grant applications, one of which was
+      successfully funded by the NIH
+
 -  **Technical University of Denmark (DTU)** (Kongens Lyngby, Denmark)
 
    Postdoctoral Researcher, 2013 - 2014
 
    -  Developed OpenCL software for processing 3-D Doppler ultrasound
       data on the GPU
-   -  Presented results in conference abstract, poster, and proceedings
-   -  Completed pre-clinical feasibility study of cardiac vector flow
-      imaging and preparing peer-reviewed article
+   -  Presented results - one conference presentation, one poster, and
+      two proceedings (SPIE 2014 & 2015)
+   -  Examined feasibility of transthoracic cardiac vector flow imaging
+      on a phased-array probe
 
 -  **Duke University** (Durham, NC, USA)
 
@@ -46,12 +53,13 @@ Work Experience
 
    Graduate Student Research Intern, 2008
 
-   -  Worked within a research team in a multinational corporation
+   -  Worked within a research and development team in a large
+      corporation
    -  Added multiple focal zone ARFI excitation to research mode of
       Acuson S2000 ultrasound scanner
    -  Learned `version
       control <http://www-03.ibm.com/software/products/en/clearcase>`__
-      and `IDE <http://www.visualstudio.com/>`__ tools
+      and `MS Visual Studio IDE <http://www.visualstudio.com/>`__ tools
 
 Education
 ---------
@@ -121,7 +129,7 @@ Skills
 ------
 
 -  Advanced signal and imaging processing programming: Matlab and Python
--  Working knowlegde of many tools and languages:
+-  Working knowledge of many tools and languages:
    `Git <http://git-scm.com/>`__, C/C++, OpenCL/CUDA, MS Office, and
    Markdown
 -  Focused on problem solving, signal and image analysis, scientific
@@ -141,7 +149,7 @@ Journal Articles
 Abstracts and Proceedings
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[12–34]
+[12–36]
 
 .. raw:: html
 
@@ -335,6 +343,17 @@ doi:\ `10.1117/12.2043582 <http://dx.doi.org/10.1117/12.2043582>`__
 oscillation vector flow imaging for transthoracic echocardiography. In:
 SPIE medical imaging. pp. 941902–941902–7.
 doi:\ `10.1117/12.2081145 <http://dx.doi.org/10.1117/12.2081145>`__
+
+35. Bottenus N, Long W, Bradway D, Trahey G (2015) Phantom and in vivo
+demonstration of swept synthetic aperture imaging. In: 2015 iEEE
+international ultrasonics symposium (iUS). pp. 1–4.
+doi:\ `10.1109/ULTSYM.2015.0075 <http://dx.doi.org/10.1109/ULTSYM.2015.0075>`__
+
+36. Kakkad V, Kuo L, Bradway D, Trahey G, Sivak J, et al. (2015) In vivo
+transthoracic measurements of acoustic radiation force induced
+displacements in the heart over the cardiac cycle. In: 2015 iEEE
+international ultrasonics symposium (iUS). pp. 1–5.
+doi:\ `10.1109/ULTSYM.2015.0155 <http://dx.doi.org/10.1109/ULTSYM.2015.0155>`__
 
 .. raw:: html
 
