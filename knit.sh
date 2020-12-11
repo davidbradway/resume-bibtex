@@ -9,3 +9,5 @@ pandoc -H margins.sty --bibliography mendeley.bib --csl plos.csl resume_with_cit
 pandoc -s --bibliography mendeley.bib --csl plos.csl resume_with_citations.md -o resume.html
 # Make ReST file
 pandoc -s -t rst --bibliography mendeley.bib --csl plos.csl resume_with_citations.md -o resume.rst
+./clean.sh
+

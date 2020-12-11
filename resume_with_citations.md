@@ -7,12 +7,12 @@ Biomedical Engineering
 Duke University  
 Durham, NC 27708 USA  
 
-##Objective
+## Objective
 
 *   Career in research, visualization, data acquisition, and signal processing
 *   Engineering, research and development role in academia or industry
 
-##Work Experience
+## Work Experience
 
 *   **Duke University** (Durham, NC, USA)
 
@@ -47,7 +47,7 @@ Durham, NC 27708 USA
     -   Added multiple focal zone ARFI excitation to research mode of Acuson S2000 ultrasound scanner
     -   Learned [version control](http://www-03.ibm.com/software/products/en/clearcase) and [MS Visual Studio IDE](http://www.visualstudio.com/) tools
 
-##Education
+## Education
 
 *   **Duke University** (Durham, NC, USA)
 
@@ -57,19 +57,19 @@ Durham, NC 27708 USA
 
     [B.S. in Electrical and Computer Engineering](http://ece.osu.edu/futurestudents/undergrad), June 2005.
 
-##Teaching
+## Teaching
 
 *   Co-Instructor, Instructor, Adv. Top. Lab for Grads in BME - Intro. to Electronics Biomedical Engineering 790L (2018, 2019)
 *   Instructor, Ultrasound module of Medical Physics 731 (2015, 2016)
 *   Guest lecturer, Biomedical Engineering 590 (2016)
 *   Co-Instructor, "International Summer School on Advanced Ultrasound Imaging", Technical University of Denmark (June 2015)
 
-##Invention Disclosures and Patents
+## Invention Disclosures and Patents
 
 *   Duke IDF #4547: "Low-Cost, Portable Ultrasound Shear Wave Device for Characterization of Material Viscoelasticity" 
 *   Duke IDF #540: "Visual Feedback for Improved Triggered Acquisitions for Ultrasound Imaging"
 
-##Honors and Activities
+## Honors and Activities
 
 *   [Whitaker International Program Scholar](http://www.whitaker.org/grants/fellows-scholars)  (2013)
 *   Student Travel Support IEEE International Ultrasonics Symposium, Dresden, Germany (2012)
@@ -78,13 +78,13 @@ Durham, NC 27708 USA
 *   [Organized engineering design and build trip to Honduran orphanage](http://www.montanadeluz.org/) (2004)
 *   [Founded engineering community service group at Ohio State](http://ecos.osu.edu/) (2003)
 
-##Professional Activities
+## Professional Activities
 
 *   Early Career Professional Development in Medical Imaging Workshop, SPIE Medical Imaging 2015
 *   Associate Editor, Ultrasonic Imaging journal (2016-)
 *   Reviewer for Ultrasound in Medicine and Biology, Ultrasonic Imaging jounal
 
-##Skills
+## Skills
 *   Advanced signal and imaging processing programming: Matlab and Python
 *   Tools and languages: [Git](http://git-scm.com/), C/C++, OpenCL/CUDA, Docker, Linux
 *   Problem solving, signal and image analysis, data science, scientific computing, and experimental design
@@ -92,13 +92,13 @@ Durham, NC 27708 USA
 *   Successfully written fellowships, scholarships, proposals
 *   Personal projects in mobile and embedded systems: [Arduino](http://www.arduino.cc/), [Raspberry Pi](http://www.raspberrypi.org/)
 
-###Journal Articles
+### Journal Articles
 [@Fahey2008a;@Fahey2008c;@Nightingale2008;@Nightingale2009;@Wolf2011;@Eyerly2012;@Hollender2013;@Patel2014;@Eyerly2014;@jensen2016;@bottenus2016;@Long2017umb;@Flint2020]
 
-###Book Chapters
+### Book Chapters
 [@dobbins2019medical;@eyerly2018acoustic]
 
-###Abstracts and Proceedings
+### Abstracts and Proceedings
 [@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014;@Bradway2015;@Bottenus2015;@Kakkad2015;@Kakkad2017;@Hollender2017;]
 
-##Publications
+## Publications

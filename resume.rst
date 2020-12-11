@@ -7,13 +7,15 @@ David Pierson Bradway, Ph.D. 
 | Duke University
 | Durham, NC 27708 USA
 
-##Objective
+Objective
+---------
 
 -  Career in research, visualization, data acquisition, and signal
    processing
 -  Engineering, research and development role in academia or industry
 
-##Work Experience
+Work Experience
+---------------
 
 -  **Duke University** (Durham, NC, USA)
 
@@ -59,7 +61,8 @@ David Pierson Bradway, Ph.D. 
       control <http://www-03.ibm.com/software/products/en/clearcase>`__
       and `MS Visual Studio IDE <http://www.visualstudio.com/>`__ tools
 
-##Education
+Education
+---------
 
 -  **Duke University** (Durham, NC, USA)
 
@@ -72,7 +75,8 @@ David Pierson Bradway, Ph.D. 
    Engineering <http://ece.osu.edu/futurestudents/undergrad>`__, June
    2005.
 
-##Teaching
+Teaching
+--------
 
 -  Co-Instructor, Instructor, Adv. Top. Lab for Grads in BME - Intro. to
    Electronics Biomedical Engineering 790L (2018, 2019)
@@ -81,14 +85,16 @@ David Pierson Bradway, Ph.D. 
 -  Co-Instructor, “International Summer School on Advanced Ultrasound
    Imaging”, Technical University of Denmark (June 2015)
 
-##Invention Disclosures and Patents
+Invention Disclosures and Patents
+---------------------------------
 
 -  Duke IDF #4547: “Low-Cost, Portable Ultrasound Shear Wave Device for
    Characterization of Material Viscoelasticity”
 -  Duke IDF #540: “Visual Feedback for Improved Triggered Acquisitions
    for Ultrasound Imaging”
 
-##Honors and Activities
+Honors and Activities
+---------------------
 
 -  `Whitaker International Program
    Scholar <http://www.whitaker.org/grants/fellows-scholars>`__ (2013)
@@ -103,7 +109,8 @@ David Pierson Bradway, Ph.D. 
 -  `Founded engineering community service group at Ohio
    State <http://ecos.osu.edu/>`__ (2003)
 
-##Professional Activities
+Professional Activities
+-----------------------
 
 -  Early Career Professional Development in Medical Imaging Workshop,
    SPIE Medical Imaging 2015
@@ -111,24 +118,37 @@ David Pierson Bradway, Ph.D. 
 -  Reviewer for Ultrasound in Medicine and Biology, Ultrasonic Imaging
    jounal
 
-##Skills \* Advanced signal and imaging processing programming: Matlab
-and Python \* Tools and languages: `Git <http://git-scm.com/>`__, C/C++,
-OpenCL/CUDA, Docker, Linux \* Problem solving, signal and image
-analysis, data science, scientific computing, and experimental design \*
-Strong written and verbal communication, data visualization \*
-Successfully written fellowships, scholarships, proposals \* Personal
-projects in mobile and embedded systems:
-`Arduino <http://www.arduino.cc/>`__, `Raspberry
-Pi <http://www.raspberrypi.org/>`__
+Skills
+------
 
-###Journal Articles [1–13]
+-  Advanced signal and imaging processing programming: Matlab and Python
+-  Tools and languages: `Git <http://git-scm.com/>`__, C/C++,
+   OpenCL/CUDA, Docker, Linux
+-  Problem solving, signal and image analysis, data science, scientific
+   computing, and experimental design
+-  Strong written and verbal communication, data visualization
+-  Successfully written fellowships, scholarships, proposals
+-  Personal projects in mobile and embedded systems:
+   `Arduino <http://www.arduino.cc/>`__, `Raspberry
+   Pi <http://www.raspberrypi.org/>`__
 
-###Book Chapters [14,15]
+Journal Articles
+~~~~~~~~~~~~~~~~
 
-###Abstracts and Proceedings
+[1–13]
+
+Book Chapters
+~~~~~~~~~~~~~
+
+[14,15]
+
+Abstracts and Proceedings
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
 [[16];[17];[18];[19];[20];[21];[22];[23];[24];[25];[26];[27];[28];[29];[30];[31];[32];[33];[34];[35];[36];[37];[38];[39];[40];[41];[42];]
 
-##Publications
+Publications
+------------
 
 .. container:: references
    :name: refs
