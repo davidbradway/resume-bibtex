@@ -88,8 +88,7 @@ Teaching
 Invention Disclosures and Patents
 ---------------------------------
 
--  Duke IDF #4547: “Low-Cost, Portable Ultrasound Shear Wave Device for
-   Characterization of Material Viscoelasticity”
+-  Duke IDF #a3348ed7: “Split Aperture ARFI / SWEI”
 -  Duke IDF #540: “Visual Feedback for Improved Triggered Acquisitions
    for Ultrasound Imaging”
 
