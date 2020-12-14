@@ -44,10 +44,10 @@ Work Experience
 
    -  PhD project using ultrasound to noninvasively measure the heart’s
       mechanical properties
-   -  Organized and conducted pre-clinical trials at Duke University
+   -  Organized and conducted clinical studies at Duke University
       Medical Center
-   -  Presented results in conferences, proceedings and co-authored
-      articles
+   -  Presented results in conferences and proceedings and via
+      peer-reviewed journal articles
 
 -  **Siemens Healthcare** (Issaquah, WA, USA)
 
@@ -97,8 +97,6 @@ Honors and Activities
 
 -  `Whitaker International Program
    Scholar <http://www.whitaker.org/grants/fellows-scholars>`__ (2013)
--  Student Travel Support IEEE International Ultrasonics
-   Symposium, Dresden, Germany (2012)
 -  `National Science Foundation Graduate Research
    Fellow <http://www.nsfgrfp.org/>`__ (2005-2008)
 -  `Goldwater Research Scholar <https://goldwater.scholarsapply.org/>`__
@@ -114,8 +112,8 @@ Professional Activities
 -  Early Career Professional Development in Medical Imaging Workshop,
    SPIE Medical Imaging 2015
 -  Associate Editor, Ultrasonic Imaging journal (2016-)
--  Reviewer for Ultrasound in Medicine and Biology, Ultrasonic Imaging
-   jounal
+-  Reviewer for the journals Ultrasound in Medicine and Biology,
+   Ultrasonic Imaging, and IEEE Transactions on Medical Imaging
 
 Skills
 ------
