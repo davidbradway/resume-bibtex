@@ -27,8 +27,8 @@ Durham, NC 27708 USA
     Postdoctoral Researcher, 2013 - 2014
 
     -   Developed OpenCL software for processing 3-D vector flow imaging ultrasound data on the GPU
-    -   Presented one conference presentation, one poster, and two proceedings (SPIE 2014 & 2015)
-    -   Contributed as co-author to one peer-reviewed journal articles
+    -   Presented a conference presentation, a poster, and proceedings (SPIE 2014 & 2015)
+    -   Contributed as co-author to another peer-reviewed journal article
     -   Examined feasibility of transthoracic cardiac vector flow imaging on a phased-array probe
 
 *   **Duke University** (Durham, NC, USA)
