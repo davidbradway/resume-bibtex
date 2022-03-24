@@ -1,32 +1,27 @@
-# David Pierson Bradway, Ph.D.  
-
-
 <david.bradway@duke.edu>  
-Research Scientist  
-Biomedical Engineering  
-Duke University  
-Durham, NC 27708 USA  
+Research Scientist, Biomedical Engineering  
+Duke University, Durham, NC 27708 USA  
 
 ## Objective
 
-*   Career in research, visualization, data acquisition, and signal processing
-*   Engineering, research and development role in academia or industry
+*   Planning, data science, visualization, image processing, and research administration
+*   Project and program management, engineering, science, research and development
 
 ## Work Experience
 
 *   **Duke University** (Durham, NC, USA)
 
-    Research Scientist, 2014 - present
+    Research Scientist, Laboratory of Gregg Trahey, 2014 - present
 
     -   Clincal research coordination for studies on ultrsound imaging in the engineering lab, as well as hospital fetal and liver clinics
     -   Collaborating with both industry and external academic partners as well as Duke graduate students on NIH-funded research
-    -   Developing technical tools, curating data, and managing documentation for the laboratory
+    -   Developing technical tools, managing data and documentation for the lab group
 
 *   **Technical University of Denmark (DTU)** (Kongens Lyngby, Denmark)
 
-    Postdoctoral Researcher, 2013 - 2014
+    Postdoctoral Researcher, Laborartory of Jørgen Jensen, 2013 - 2014
 
-    -   Developed OpenCL software for processing 3-D vector flow imaging ultrasound data on the GPU
+    -   Developed OpenCL software for processing 3-D vector flow imaging ultrasound data on an AMD GPU
     -   Presented a conference presentation, a poster, and proceedings (SPIE 2014 & 2015)
     -   Contributed as co-author to another peer-reviewed journal article
     -   Examined feasibility of transthoracic cardiac vector flow imaging on a phased-array probe
