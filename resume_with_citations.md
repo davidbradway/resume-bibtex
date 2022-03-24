@@ -4,8 +4,9 @@ Duke University, Durham, NC 27708 USA
 
 ## Objective
 
-*   Planning, data science, visualization, image processing, and research administration
-*   Project and program management, engineering, science, research and development
+*   Use technical and administrative skills to facilitate projects advancing state of the art imaging techniques
+-   Utilize knowledge of data science, visualization, imaging, and research operations at Duke
+*   Further refine skills in project and program management, science and engineering, and research and development
 
 ## Work Experience
 
@@ -14,14 +15,14 @@ Duke University, Durham, NC 27708 USA
     Research Scientist, Laboratory of Gregg Trahey, 2014 - present
 
     -   Clincal research coordination for studies on ultrsound imaging in the engineering lab, as well as hospital fetal and liver clinics
-    -   Collaborating with both industry and external academic partners as well as Duke graduate students on NIH-funded research
+    -   Collaborate with industry and academic partners and Duke graduate students on NIH grants
     -   Developing technical tools, managing data and documentation for the lab group
 
 *   **Technical University of Denmark (DTU)** (Kongens Lyngby, Denmark)
 
     Postdoctoral Researcher, Laborartory of Jørgen Jensen, 2013 - 2014
 
-    -   Developed OpenCL software for processing 3-D vector flow imaging ultrasound data on an AMD GPU
+    -   Wrote OpenCL code to  process 3-D vector flow imaging data on an AMD GPU
     -   Presented a conference presentation, a poster, and proceedings (SPIE 2014 & 2015)
     -   Contributed as co-author to another peer-reviewed journal article
     -   Examined feasibility of transthoracic cardiac vector flow imaging on a phased-array probe
@@ -33,7 +34,7 @@ Duke University, Durham, NC 27708 USA
     -   PhD project using ultrasound to noninvasively measure the heart's mechanical properties
     -   Organized and conducted clinical studies at Duke University Medical Center
     -   Presented results in conferences and proceedings and via peer-reviewed journal articles
-    -   Graduate-level coursework and labs in medical imaging modalities such as CT, MR, OCT and nuclear imaging
+    -   Graduate-level medical imaging coursework and labs covering CT, MR, OCT and nuclear imaging
 
 *   **Siemens Healthcare** (Issaquah, WA, USA)
 
@@ -58,7 +59,7 @@ Duke University, Durham, NC 27708 USA
 *   Co-Instructor, Instructor, Adv. Top. Lab for Grads in BME - Intro. to Electronics Biomedical Engineering 790L (2018, 2019)
 *   Instructor, Ultrasound module of Medical Physics 731 (2015, 2016)
 *   Guest lecturer, Biomedical Engineering 590 (2016)
-*   Co-Instructor, "International Summer School on Advanced Ultrasound Imaging", Technical University of Denmark (June 2015)
+*   Co-Instructor, International Summer School on Advanced Ultrasound Imaging, Technical University of Denmark (2015)
 
 ## Grants and Contracts
 
@@ -80,11 +81,11 @@ Duke University, Durham, NC 27708 USA
 
 ## Professional Activities
 
-*   Early Career Professional Development in Medical Imaging Workshop, SPIE Medical Imaging 2015
+*   Early Career Professional Development in Medical Imaging Workshop, SPIE Medical Imaging (2015)
 *   Associate Editor, Ultrasonic Imaging journal (2016-)
 *   Reviewer for the journals Ultrasound in Medicine and Biology, Ultrasonic Imaging, and IEEE Transactions on Medical Imaging, Journal of Medical Imaging
 *   Duke Machine Learning Summer School (2019)
-*   Hands-On Deep Learning for Processing of Biosignals Short Course. Advanced Self-Powered Systems of Integrated Sensors and Technologies (ASSIST) Center, North Carolina State University. (2021)
+*   Hands-On Deep Learning for Processing of Biosignals Short Course. ASSIST Center, North Carolina State University (2021)
 
 ## Skills
 *   Advanced signal and imaging processing programming: Matlab and Python

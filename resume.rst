@@ -9,10 +9,12 @@ David Pierson Bradway, Ph.D.
 Objective
 =========
 
--  Planning, data science, visualization, image processing, and research
-   administration
--  Project and program management, engineering, science, research and
-   development
+-  Use technical and administrative skills to facilitate projects
+   advancing state of the art imaging techniques
+-  Utilize knowledge of data science, visualization, imaging, and
+   research operations at Duke
+-  Further refine skills in project and program management, science and
+   engineering, and research and development
 
 Work Experience
 ===============
@@ -23,8 +25,8 @@ Work Experience
 
    -  Clincal research coordination for studies on ultrsound imaging in
       the engineering lab, as well as hospital fetal and liver clinics
-   -  Collaborating with both industry and external academic partners as
-      well as Duke graduate students on NIH-funded research
+   -  Collaborate with industry and academic partners and Duke graduate
+      students on NIH grants
    -  Developing technical tools, managing data and documentation for
       the lab group
 
@@ -32,8 +34,8 @@ Work Experience
 
    Postdoctoral Researcher, Laborartory of Jørgen Jensen, 2013 - 2014
 
-   -  Developed OpenCL software for processing 3-D vector flow imaging
-      ultrasound data on an AMD GPU
+   -  Wrote OpenCL code to process 3-D vector flow imaging data on an
+      AMD GPU
    -  Presented a conference presentation, a poster, and proceedings
       (SPIE 2014 & 2015)
    -  Contributed as co-author to another peer-reviewed journal article
@@ -50,8 +52,8 @@ Work Experience
       Medical Center
    -  Presented results in conferences and proceedings and via
       peer-reviewed journal articles
-   -  Graduate-level coursework and labs in medical imaging modalities
-      such as CT, MR, OCT and nuclear imaging
+   -  Graduate-level medical imaging coursework and labs covering CT,
+      MR, OCT and nuclear imaging
 
 -  **Siemens Healthcare** (Issaquah, WA, USA)
 
@@ -86,8 +88,8 @@ Teaching
    Electronics Biomedical Engineering 790L (2018, 2019)
 -  Instructor, Ultrasound module of Medical Physics 731 (2015, 2016)
 -  Guest lecturer, Biomedical Engineering 590 (2016)
--  Co-Instructor, “International Summer School on Advanced Ultrasound
-   Imaging,” Technical University of Denmark (June 2015)
+-  Co-Instructor, International Summer School on Advanced Ultrasound
+   Imaging, Technical University of Denmark (2015)
 
 Grants and Contracts
 ====================
@@ -128,15 +130,14 @@ Professional Activities
 =======================
 
 -  Early Career Professional Development in Medical Imaging Workshop,
-   SPIE Medical Imaging 2015
+   SPIE Medical Imaging (2015)
 -  Associate Editor, Ultrasonic Imaging journal (2016-)
 -  Reviewer for the journals Ultrasound in Medicine and Biology,
    Ultrasonic Imaging, and IEEE Transactions on Medical Imaging, Journal
    of Medical Imaging
 -  Duke Machine Learning Summer School (2019)
 -  Hands-On Deep Learning for Processing of Biosignals Short Course.
-   Advanced Self-Powered Systems of Integrated Sensors and Technologies
-   (ASSIST) Center, North Carolina State University. (2021)
+   ASSIST Center, North Carolina State University (2021)
 
 Skills
 ======
@@ -165,7 +166,7 @@ Book Chapters
 Abstracts and Proceedings
 -------------------------
 
-[16–45]
+[16–47]
 
 Publications
 ============
@@ -557,9 +558,23 @@ Publications
       doi:`10.1109/ULTSYM.2018.8579734 <https://doi.org/10.1109/ULTSYM.2018.8579734>`__
 
    .. container:: csl-entry
+      :name: ref-Bernard2018
+
+      45.Bernard O, Bradway D, Hansen HHG, Kruizinga P, Nair A, et al.
+      (2018) The Ultrasound File Format (UFF) - First Draft. 2018 IEEE
+      international ultrasonics symposium. IEEE.
+
+   .. container:: csl-entry
+      :name: ref-Hollender2019
+
+      46.Hollender P, Noor S, Bradway D, Trahey G (2019) Force-Map
+      Normalization for ARFI Imaging. 2019 IEEE international
+      ultrasonics symposium. IEEE. pp. 411–414.
+
+   .. container:: csl-entry
       :name: ref-Huber2021
 
-      45.Huber M, Flint K, Barre E, Bradway D, McNally P, et al. (2021)
+      47.Huber M, Flint K, Barre E, Bradway D, McNally P, et al. (2021)
       Mechanisms affecting ALARA MI selected in adaptive ultrasound
       imaging. 2021 IEEE international ultrasonics symposium (IUS). pp.
       1–4.
