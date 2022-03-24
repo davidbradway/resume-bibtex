@@ -18,9 +18,9 @@ Durham, NC 27708 USA
 
     Research Scientist, 2014 - present
 
-    -   Managing clinical trials on ultrsound imaging in fetal and liver clinics
-    -   Working with graduate students on NIH-funded research
-    -   Contributed to several funded NIH grant applications
+    -   Clincal research coordination for studies on ultrsound imaging in the engineering lab, as well as hospital fetal and liver clinics
+    -   Collaborating with both industry and external academic partners as well as Duke graduate students on NIH-funded research
+    -   Developing technical tools, curating data, and managing documentation for the laboratory
 
 *   **Technical University of Denmark (DTU)** (Kongens Lyngby, Denmark)
 
@@ -38,6 +38,7 @@ Durham, NC 27708 USA
     -   PhD project using ultrasound to noninvasively measure the heart's mechanical properties
     -   Organized and conducted clinical studies at Duke University Medical Center
     -   Presented results in conferences and proceedings and via peer-reviewed journal articles
+    -   Graduate-level coursework and labs in medical imaging modalities such as CT, MR, OCT and nuclear imaging
 
 *   **Siemens Healthcare** (Issaquah, WA, USA)
 
@@ -72,7 +73,7 @@ Durham, NC 27708 USA
 
 *   Duke IDF #a3348ed7: "Split Aperture ARFI / SWEI"
 *   Duke IDF #540: "Visual Feedback for Improved Triggered Acquisitions for Ultrasound Imaging"
-*   Trahey, G., Long, W., Hollender, P., Bradway, D., Kakkad, V. and Bottenus, N., Duke University, 2021. Methods, systems and computer program products for triggering ultrasound data acquisition. U.S. Patent 10,969,487.
+*   Trahey, G., Long, W., Hollender, P., Bradway, D., Kakkad, V. and Bottenus, N., Duke University, 2021. Methods, systems and computer program products for triggering ultrasound data acquisition. U.S. Patent 10,969,487.
 
 ## Honors and Activities
 
@@ -86,7 +87,9 @@ Durham, NC 27708 USA
 
 *   Early Career Professional Development in Medical Imaging Workshop, SPIE Medical Imaging 2015
 *   Associate Editor, Ultrasonic Imaging journal (2016-)
-*   Reviewer for the journals Ultrasound in Medicine and Biology, Ultrasonic Imaging, and IEEE Transactions on Medical Imaging
+*   Reviewer for the journals Ultrasound in Medicine and Biology, Ultrasonic Imaging, and IEEE Transactions on Medical Imaging, Journal of Medical Imaging
+*   Duke Machine Learning Summer School (2019)
+*   Hands-On Deep Learning for Processing of Biosignals Short Course. Advanced Self-Powered Systems of Integrated Sensors and Technologies (ASSIST) Center, North Carolina State University. (2021)
 
 ## Skills
 *   Advanced signal and imaging processing programming: Matlab and Python
@@ -94,7 +97,7 @@ Durham, NC 27708 USA
 *   Problem solving, signal and image analysis, data science, scientific computing, and experimental design
 *   Strong written and verbal communication, data visualization
 *   Successfully written fellowships, scholarships, proposals
-*   Personal projects in mobile and embedded systems: [Arduino](http://www.arduino.cc/), [Raspberry Pi](http://www.raspberrypi.org/)
+*   Personal hardware and software projects in embedded systems: [Arduino](http://www.arduino.cc/), [Raspberry Pi](http://www.raspberrypi.org/)
 
 ### Journal Articles
 [@Fahey2008a;@Fahey2008c;@Nightingale2008;@Nightingale2009;@Wolf2011;@Eyerly2012;@Hollender2013;@Patel2014;@Eyerly2014;@jensen2016;@bottenus2016;@Long2017umb;@Flint2020]
@@ -103,7 +106,7 @@ Durham, NC 27708 USA
 [@dobbins2019medical;@eyerly2018acoustic]
 
 ### Abstracts and Proceedings
-[@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014;@Bradway2015;@Bottenus2015;@Kakkad2015;@Kakkad2017;@Hollender2017;@Long2017IUS;@Flint2018]
+[@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014;@Bradway2015;@Bottenus2015;@Kakkad2015;@Kakkad2017;@Hollender2017;@Long2017IUS;@Flint2018;@Huber2021]
 
 ## Publications
 
