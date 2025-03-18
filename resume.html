@@ -7,9 +7,6 @@
   <title>David Pierson Bradway, Ph.D.</title>
   <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -21,17 +18,23 @@
       padding-top: 50px;
       padding-bottom: 50px;
       hyphens: auto;
-      word-wrap: break-word;
+      overflow-wrap: break-word;
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -55,6 +58,10 @@
       color: #1a1a1a;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -81,9 +88,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -92,6 +100,7 @@
     pre code {
       padding: 0;
       overflow: visible;
+      overflow-wrap: normal;
     }
     .sourceCode {
      background-color: transparent;
@@ -133,21 +142,36 @@
     #TOC li {
       list-style: none;
     }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
     #TOC a:not(:hover) {
       text-decoration: none;
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for citations */
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
     }
-    .hanging div.csl-entry {
+    .hanging-indent div.csl-entry {
       margin-left:2em;
       text-indent:-2em;
     }
@@ -161,255 +185,594 @@
     }
     div.csl-indent {
       margin-left: 2em;
-    }
-  </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+    }  </style>
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">David Pierson Bradway, Ph.D.</h1>
 </header>
-<p><a href="mailto:david.bradway@duke.edu" class="email">david.bradway@duke.edu</a><br />
-Research Scientist, Biomedical Engineering<br />
+<p><a href="mailto:david.bradway@duke.edu"
+class="email">david.bradway@duke.edu</a><br />
+Senior Research Scientist, Biomedical Engineering<br />
 Duke University, Durham, NC 27708 USA</p>
 <h2 id="objective">Objective</h2>
 <ul>
-<li>Use technical and administrative skills to facilitate projects advancing state of the art imaging techniques</li>
-<li>Utilize knowledge of data science, visualization, imaging, and research operations at Duke</li>
-<li>Further refine skills in project and program management, science and engineering, and research and development</li>
+<li>Use technical and administrative skills to facilitate projects
+advancing state of the art imaging techniques</li>
+<li>Utilize and grow knowledge of data science, visualization, imaging,
+and research operations at Duke</li>
+<li>Further refine skills in project and program management, science and
+engineering, and research and development</li>
 </ul>
 <h2 id="work-experience">Work Experience</h2>
 <ul>
 <li><p><strong>Duke University</strong> (Durham, NC, USA)</p>
-<p>Research Scientist, Laboratory of Gregg Trahey, 2014 - present</p>
+<p>Senior Resarch Scientist/Research Scientist, Biomedical Engienering,
+2014 - present</p>
 <ul>
-<li>Clincal research coordination for studies on ultrsound imaging in the engineering lab, as well as hospital fetal and liver clinics</li>
-<li>Collaborate with industry and academic partners and Duke graduate students on NIH grants</li>
-<li>Developing technical tools, managing data and documentation for the lab group</li>
+<li>Coordinating and carrying out clincal research studies on ultrsound
+imaging in the engineering lab and hospital fetal and liver clinics</li>
+<li>Collaborating with industry and academic partners and Duke graduate
+students on NIH grants</li>
+<li>Developing technical tools, managing data and documentation for the
+lab group</li>
 </ul></li>
-<li><p><strong>Technical University of Denmark (DTU)</strong> (Kongens Lyngby, Denmark)</p>
-<p>Postdoctoral Researcher, Laborartory of Jørgen Jensen, 2013 - 2014</p>
+<li><p><strong>Technical University of Denmark (DTU)</strong> (Kongens
+Lyngby, Denmark)</p>
+<p>Postdoctoral Researcher, Laborartory of Jørgen Jensen, 2013 -
+2014</p>
 <ul>
-<li>Wrote OpenCL code to process 3-D vector flow imaging data on an AMD GPU</li>
-<li>Presented a conference presentation, a poster, and proceedings (SPIE 2014 &amp; 2015)</li>
-<li>Contributed as co-author to another peer-reviewed journal article</li>
-<li>Examined feasibility of transthoracic cardiac vector flow imaging on a phased-array probe</li>
+<li>Wrote OpenCL code to process 3-D vector flow imaging data on an AMD
+GPU</li>
+<li>Presented a conference presentation, a poster, and proceedings (SPIE
+2014 &amp; 2015)</li>
+<li>Contributed as co-author to another peer-reviewed journal
+article</li>
+<li>Examined feasibility of transthoracic cardiac vector flow imaging on
+a phased-array probe</li>
 </ul></li>
 <li><p><strong>Duke University</strong> (Durham, NC, USA)</p>
 <p>Graduate Research and Teaching Assistant, 2005 - 2013</p>
 <ul>
-<li>PhD project using ultrasound to noninvasively measure the heart’s mechanical properties</li>
-<li>Organized and conducted clinical studies at Duke University Medical Center</li>
-<li>Presented results in conferences and proceedings and via peer-reviewed journal articles</li>
-<li>Graduate-level medical imaging coursework and labs covering CT, MR, OCT and nuclear imaging</li>
+<li>PhD project using ultrasound to noninvasively measure the heart’s
+mechanical properties</li>
+<li>Organized and conducted clinical studies at Duke University Medical
+Center</li>
+<li>Presented results in conferences and proceedings and via
+peer-reviewed journal articles</li>
+<li>Graduate-level medical imaging coursework and labs covering CT, MR,
+OCT and nuclear imaging</li>
 </ul></li>
 <li><p><strong>Siemens Healthcare</strong> (Issaquah, WA, USA)</p>
 <p>Graduate Student Research Intern, 2008</p>
 <ul>
-<li>Worked within a research and development team in a large corporation</li>
-<li>Added multiple focal zone ARFI excitation to research mode of Acuson S2000 ultrasound scanner</li>
-<li>Learned <a href="http://www-03.ibm.com/software/products/en/clearcase">version control</a> and <a href="http://www.visualstudio.com/">MS Visual Studio IDE</a> tools</li>
+<li>Worked within a research and development team in a large
+corporation</li>
+<li>Added multiple focal zone ARFI excitation to research mode of Acuson
+S2000 ultrasound scanner</li>
+<li>Learned <a
+href="http://www-03.ibm.com/software/products/en/clearcase">version
+control</a> and <a href="http://www.visualstudio.com/">MS Visual Studio
+IDE</a> tools</li>
 </ul></li>
 </ul>
 <h2 id="education">Education</h2>
 <ul>
 <li><p><strong>Duke University</strong> (Durham, NC, USA)</p>
-<p><a href="http://bme.duke.edu/grad">Ph.D. in Biomedical Engineering</a>, May 2013.</p></li>
-<li><p><strong>The Ohio State University (OSU)</strong> (Columbus, OH, USA)</p>
-<p><a href="http://ece.osu.edu/futurestudents/undergrad">B.S. in Electrical and Computer Engineering</a>, June 2005.</p></li>
+<p><a href="http://bme.duke.edu/grad">Ph.D. in Biomedical
+Engineering</a>, May 2013.</p></li>
+<li><p><strong>The Ohio State University (OSU)</strong> (Columbus, OH,
+USA)</p>
+<p><a href="http://ece.osu.edu/futurestudents/undergrad">B.S. in
+Electrical and Computer Engineering</a>, June 2005.</p></li>
 </ul>
 <h2 id="teaching">Teaching</h2>
 <ul>
-<li>Co-Instructor, Instructor, Adv. Top. Lab for Grads in BME - Intro. to Electronics Biomedical Engineering 790L (2018, 2019)</li>
-<li>Instructor, Ultrasound module of Medical Physics 731 (2015, 2016)</li>
+<li>Instructor, Signal Processing and Applied Mathematics, BME 671L
+(2024)</li>
+<li>Co-Instructor, Instructor, Adv. Top. Lab for Grads in BME - Intro.
+to Electronics Biomedical Engineering 790L (2018, 2019)</li>
+<li>Instructor, Ultrasound module of Medical Physics 731 (2015,
+2016)</li>
 <li>Guest lecturer, Biomedical Engineering 590 (2016)</li>
-<li>Co-Instructor, International Summer School on Advanced Ultrasound Imaging, Technical University of Denmark (2015)</li>
+<li>Co-Instructor, International Summer School on Advanced Ultrasound
+Imaging, Technical University of Denmark (2015)</li>
 </ul>
 <h2 id="grants-and-contracts">Grants and Contracts</h2>
 <ul>
-<li><a href="https://dibs.duke.edu/research/awards/schedule-application">2019 Research Germinator Award, Duke Institute for Brain Sciences (DIBS)</a> Ravikanth Velagapudi, PhD, Anesthesiology, School of Medicine; and William Huffman and David Bradway, PhD, Biomedical Engineering, Pratt School of Engineering. Targeting Autophagy with Non-Invasive Vagal Nerve Stimulation to Treat Delirium Superimposed on Dementia.</li>
+<li><a
+href="https://dibs.duke.edu/research/awards/schedule-application">2019
+Research Germinator Award, Duke Institute for Brain Sciences (DIBS)</a>
+Ravikanth Velagapudi, PhD, Anesthesiology, School of Medicine; and
+William Huffman and David Bradway, PhD, Biomedical Engineering, Pratt
+School of Engineering. Targeting Autophagy with Non-Invasive Vagal Nerve
+Stimulation to Treat Delirium Superimposed on Dementia.</li>
 </ul>
-<h2 id="invention-disclosures-and-patents">Invention Disclosures and Patents</h2>
+<h2 id="invention-disclosures-and-patents">Invention Disclosures and
+Patents</h2>
 <ul>
-<li>Duke IDF #a3348ed7: “Split Aperture ARFI / SWEI”</li>
-<li>Duke IDF #540: “Visual Feedback for Improved Triggered Acquisitions for Ultrasound Imaging”</li>
-<li>Trahey, G., Long, W., Hollender, P., Bradway, D., Kakkad, V. and Bottenus, N., Duke University, 2021. Methods, systems and computer program products for triggering ultrasound data acquisition. U.S. Patent 10,969,487.</li>
+<li>Duke IDF #T-004547: “Low-Cost, Portable Ultrasound Shear Wave Device
+for Characterization of Material Viscoelasticity”</li>
+<li>Duke IDF #T-006652: “Split Aperture ARFI / SWEI”</li>
+<li>Duke IDF #T-005110: “Visual Feedback for Improved Triggered
+Acquisitions for Ultrasound Imaging” - Licensed Non-Exclusive</li>
+<li>Trahey, G., Long, W., Hollender, P., Bradway, D., Kakkad, V. and
+Bottenus, N., Duke University, 2021. Methods, systems and computer
+program products for triggering ultrasound data acquisition. U.S. Patent
+10,969,487.</li>
 </ul>
 <h2 id="honors-and-activities">Honors and Activities</h2>
 <ul>
-<li><a href="http://www.whitaker.org/grants/fellows-scholars">Whitaker International Program Scholar</a> (2013)</li>
-<li><a href="http://www.nsfgrfp.org/">National Science Foundation Graduate Research Fellow</a> (2005-2008)</li>
-<li><a href="https://goldwater.scholarsapply.org/">Goldwater Research Scholar</a> (2004-2005)</li>
-<li><a href="http://www.montanadeluz.org/">Organized engineering design and build trip to Honduran orphanage</a> (2004)</li>
-<li><a href="http://ecos.osu.edu/">Founded engineering community service group at Ohio State</a> (2003)</li>
+<li><a href="http://www.whitaker.org/grants/fellows-scholars">Whitaker
+International Program Scholar</a> (2013)</li>
+<li><a href="http://www.nsfgrfp.org/">National Science Foundation
+Graduate Research Fellow</a> (2005-2008)</li>
+<li><a href="https://goldwater.scholarsapply.org/">Goldwater Research
+Scholar</a> (2004-2005)</li>
+<li><a href="http://www.montanadeluz.org/">Organized engineering design
+and build trip to Honduran orphanage</a> (2004)</li>
+<li><a href="http://ecos.osu.edu/">Founded engineering community service
+group at Ohio State</a> (2003)</li>
 </ul>
 <h2 id="professional-activities">Professional Activities</h2>
 <ul>
-<li>Early Career Professional Development in Medical Imaging Workshop, SPIE Medical Imaging (2015)</li>
+<li>Early Career Professional Development in Medical Imaging Workshop,
+SPIE Medical Imaging (2015)</li>
 <li>Associate Editor, Ultrasonic Imaging journal (2016-)</li>
-<li>Reviewer for the journals Ultrasound in Medicine and Biology, Ultrasonic Imaging, and IEEE Transactions on Medical Imaging, Journal of Medical Imaging</li>
+<li>Associate Editor, Open Journal of IEEE UFFC (2025-)</li>
+<li>Reviewer for the journals Ultrasound in Medicine and Biology,
+Physics in Medicine and Biology, Ultrasonic Imaging, eBioMedicine, IEEE
+Transactions on Medical Imaging, and Journal of Medical Imaging</li>
 <li>Duke Machine Learning Summer School (2019)</li>
-<li>Hands-On Deep Learning for Processing of Biosignals Short Course. ASSIST Center, North Carolina State University (2021)</li>
+<li>Hands-On Deep Learning for Processing of Biosignals Short Course.
+ASSIST Center, North Carolina State University (2021)</li>
 </ul>
 <h2 id="skills">Skills</h2>
 <ul>
-<li>Advanced signal and imaging processing programming: Matlab and Python</li>
-<li>Tools and languages: <a href="http://git-scm.com/">Git</a>, C/C++, OpenCL/CUDA, Docker, Linux</li>
-<li>Problem solving, signal and image analysis, data science, scientific computing, and experimental design</li>
+<li>Advanced signal and imaging processing programming: Matlab and
+Python</li>
+<li>Tools and languages: <a href="http://git-scm.com/">Git</a>, C/C++,
+OpenCL/CUDA, Docker, Linux</li>
+<li>Problem solving, signal and image analysis, data science, scientific
+computing, and experimental design</li>
 <li>Strong written and verbal communication, data visualization</li>
 <li>Successfully written fellowships, scholarships, proposals</li>
-<li>Personal hardware and software projects in embedded systems: <a href="http://www.arduino.cc/">Arduino</a>, <a href="http://www.raspberrypi.org/">Raspberry Pi</a></li>
+<li>Personal hardware and software projects in embedded systems: <a
+href="http://www.arduino.cc/">Arduino</a>, <a
+href="http://www.raspberrypi.org/">Raspberry Pi</a></li>
 </ul>
 <h3 id="journal-articles">Journal Articles</h3>
-<p><span class="citation" data-cites="Fahey2008a Fahey2008c Nightingale2008 Nightingale2009 Wolf2011 Eyerly2012 Hollender2013 Patel2014 Eyerly2014 jensen2016 bottenus2016 Long2017umb Flint2020">[1–13]</span></p>
+<p><span class="citation"
+data-cites="Fahey2008a Fahey2008c Nightingale2008 Nightingale2009 Wolf2011 Eyerly2012 Hollender2013 Patel2014 Eyerly2014 jensen2016 bottenus2016 Long2017umb Flint2020 Long_2022a Long_2022b jin2023evaluationimaging Huber_2024">[1–17]</span></p>
 <h3 id="book-chapters">Book Chapters</h3>
-<p><span class="citation" data-cites="dobbins2019medical eyerly2018acoustic">[14,15]</span></p>
+<p><span class="citation"
+data-cites="dobbins2019medical eyerly2018acoustic">[18,19]</span></p>
 <h3 id="abstracts-and-proceedings">Abstracts and Proceedings</h3>
-<p><span class="citation" data-cites="Hsu2007c Bradway2007 Fahey2007b Bradway2009 Husarik2009 Nelson2009 Bradway2009b Hsu2010 Hollender2010 Bradway2010 Bradway2010b Bradway2011 Byram2011 Byram2011b Bradway2012 Bradway2012b Hollender2012 Eyerly2012b Hollender2012b Goswami2013 Patel2013 Bradway2014 Bradway2015 Bottenus2015 Kakkad2015 Kakkad2017 Hollender2017 Long2017IUS Flint2018 Bernard2018 Hollender2019 Huber2021">[16–47]</span></p>
+<p><span class="citation"
+data-cites="Hsu2007c Bradway2007 Fahey2007b Bradway2009 Husarik2009 Nelson2009 Bradway2009b Hsu2010 Hollender2010 Bradway2010 Bradway2010b Bradway2011 Byram2011 Byram2011b Bradway2012 Bradway2012b Hollender2012 Eyerly2012b Hollender2012b Goswami2013 Patel2013 Bradway2014 Bradway2015 Bottenus2015 Kakkad2015 Kakkad2017 Hollender2017 Long2017IUS Flint2018 Bernard2018 Hollender2019 Huber2021 srinivasan2024characterization3drswei">[20–52]</span></p>
 <h2 class="unnumbered" id="publications">Publications</h2>
-<div id="refs" class="references csl-bib-body" role="doc-bibliography">
-<div id="ref-Fahey2008a" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Fahey BJ, Nelson RC, Bradway DP, Hsu SJ, Dumont DM, et al. (2008) <span class="nocase">In vivo visualization of abdominal malignancies with acoustic radiation force elastography</span>. Physics in medicine and biology 53: 279–93. doi:<a href="https://doi.org/10.1088/0031-9155/53/1/020">10.1088/0031-9155/53/1/020</a></div>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-Fahey2008a" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div
+class="csl-right-inline">Fahey BJ, Nelson RC, Bradway DP, Hsu SJ, Dumont
+DM, et al. (2008) <span class="nocase">In vivo visualization of
+abdominal malignancies with acoustic radiation force
+elastography</span>. Physics in medicine and biology 53: 279–93. doi:<a
+href="https://doi.org/10.1088/0031-9155/53/1/020">10.1088/0031-9155/53/1/020</a></div>
 </div>
-<div id="ref-Fahey2008c" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Fahey BJ, Nelson RC, Hsu SJ, Bradway DP, Dumont DM, et al. (2008) <span class="nocase">In vivo guidance and assessment of liver radio-frequency ablation with acoustic radiation force elastography</span>. Ultrasound in medicine &amp; biology 34: 1590–603. doi:<a href="https://doi.org/10.1016/j.ultrasmedbio.2008.03.006">10.1016/j.ultrasmedbio.2008.03.006</a></div>
+<div id="ref-Fahey2008c" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div
+class="csl-right-inline">Fahey BJ, Nelson RC, Hsu SJ, Bradway DP, Dumont
+DM, et al. (2008) <span class="nocase">In vivo guidance and assessment
+of liver radio-frequency ablation with acoustic radiation force
+elastography</span>. Ultrasound in medicine &amp; biology 34: 1590–603.
+doi:<a
+href="https://doi.org/10.1016/j.ultrasmedbio.2008.03.006">10.1016/j.ultrasmedbio.2008.03.006</a></div>
 </div>
-<div id="ref-Nightingale2008" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Nightingale K, Palmeri M, Zhai L, Frinkley K, Wang M, et al. (KR) <span class="nocase">Impulsive acoustic radiation force: imaging approaches and clinical applications</span>. The Journal of the Acoustical Society of America 123: 3792. doi:<a href="https://doi.org/10.1121/1.2935460">10.1121/1.2935460</a></div>
+<div id="ref-Nightingale2008" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div
+class="csl-right-inline">Nightingale K, Palmeri M, Zhai L, Frinkley K,
+Wang M, et al. (KR) <span class="nocase">Impulsive acoustic radiation
+force: imaging approaches and clinical applications</span>. The Journal
+of the Acoustical Society of America 123: 3792. doi:<a
+href="https://doi.org/10.1121/1.2935460">10.1121/1.2935460</a></div>
 </div>
-<div id="ref-Nightingale2009" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Nightingale K, Palmeri M, Dahl J, Bradway D, Hsu S, et al. (2009) Elasticity imaging with acoustic radiation force: Methods and clinical applications. Japanese journal of medical ultrasonics 36: 116.</div>
+<div id="ref-Nightingale2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div
+class="csl-right-inline">Nightingale K, Palmeri M, Dahl J, Bradway D,
+Hsu S, et al. (2009) Elasticity imaging with acoustic radiation force:
+Methods and clinical applications. Japanese journal of medical
+ultrasonics 36: 116.</div>
 </div>
-<div id="ref-Wolf2011" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline">Wolf PD, Eyerly SA, Bradway DP, Dumont DM, Bahnson TD, et al. (2011) <span class="nocase">Near real time evaluation of cardiac radiofrequency ablation lesions with intracardiac echocardiography based acoustic radiation force impulse imaging</span>. The Journal of the Acoustical Society of America 129: 2438. doi:<a href="https://doi.org/10.1121/1.3587978">10.1121/1.3587978</a></div>
+<div id="ref-Wolf2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Wolf
+PD, Eyerly SA, Bradway DP, Dumont DM, Bahnson TD, et al. (2011) <span
+class="nocase">Near real time evaluation of cardiac radiofrequency
+ablation lesions with intracardiac echocardiography based acoustic
+radiation force impulse imaging</span>. The Journal of the Acoustical
+Society of America 129: 2438. doi:<a
+href="https://doi.org/10.1121/1.3587978">10.1121/1.3587978</a></div>
 </div>
-<div id="ref-Eyerly2012" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline">Eyerly SA, Bahnson TD, Koontz JI, Bradway DP, Dumont DM, et al. (2012) <span class="nocase">Intracardiac acoustic radiation force impulse imaging: A novel imaging method for intraprocedural evaluation of radiofrequency ablation lesions</span>. Heart rhythm: the official journal of the Heart Rhythm Society 9: 1855–1862. doi:<a href="https://doi.org/10.1016/j.hrthm.2012.07.003">10.1016/j.hrthm.2012.07.003</a></div>
+<div id="ref-Eyerly2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div
+class="csl-right-inline">Eyerly SA, Bahnson TD, Koontz JI, Bradway DP,
+Dumont DM, et al. (2012) <span class="nocase">Intracardiac acoustic
+radiation force impulse imaging: A novel imaging method for
+intraprocedural evaluation of radiofrequency ablation lesions</span>.
+Heart rhythm: the official journal of the Heart Rhythm Society 9:
+1855–1862. doi:<a
+href="https://doi.org/10.1016/j.hrthm.2012.07.003">10.1016/j.hrthm.2012.07.003</a></div>
 </div>
-<div id="ref-Hollender2013" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline">Hollender P, Bradway D, Wolf P, Goswami R, Trahey G (2013) Intracardiac acoustic radiation force impulse (ARFI) and shear wave imaging in pigs with focal infarctions. IEEE transactions on ultrasonics, ferroelectrics, and frequency control 60: 1669–1682. doi:<a href="https://doi.org/10.1109/TUFFC.2013.2749">10.1109/TUFFC.2013.2749</a></div>
+<div id="ref-Hollender2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div
+class="csl-right-inline">Hollender P, Bradway D, Wolf P, Goswami R,
+Trahey G (2013) Intracardiac acoustic radiation force impulse (ARFI) and
+shear wave imaging in pigs with focal infarctions. IEEE transactions on
+ultrasonics, ferroelectrics, and frequency control 60: 1669–1682. doi:<a
+href="https://doi.org/10.1109/TUFFC.2013.2749">10.1109/TUFFC.2013.2749</a></div>
 </div>
-<div id="ref-Patel2014" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline">Patel V, Dahl JJ, Bradway DP, Doherty JR, Lee SY, et al. (2014) <span class="nocase">Acoustic Radiation Force Impulse Imaging (ARFI) on an IVUS Circular Array</span>. Ultrasonic Imaging 36: 98–111. doi:<a href="https://doi.org/10.1177/0161734613511595">10.1177/0161734613511595</a></div>
+<div id="ref-Patel2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div
+class="csl-right-inline">Patel V, Dahl JJ, Bradway DP, Doherty JR, Lee
+SY, et al. (2014) <span class="nocase">Acoustic Radiation Force Impulse
+Imaging (ARFI) on an IVUS Circular Array</span>. Ultrasonic Imaging 36:
+98–111. doi:<a
+href="https://doi.org/10.1177/0161734613511595">10.1177/0161734613511595</a></div>
 </div>
-<div id="ref-Eyerly2014" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline">Eyerly SA, Bahnson TD, Koontz JI, Bradway DP, Dumont DM, et al. (2014) <span class="nocase">Contrast in Intracardiac Acoustic Radiation Force Impulse Images of Radiofrequency Ablation Lesions</span>. Ultrasonic Imaging 36: 133–148. doi:<a href="https://doi.org/10.1177/0161734613519602">10.1177/0161734613519602</a></div>
+<div id="ref-Eyerly2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div
+class="csl-right-inline">Eyerly SA, Bahnson TD, Koontz JI, Bradway DP,
+Dumont DM, et al. (2014) <span class="nocase">Contrast in Intracardiac
+Acoustic Radiation Force Impulse Images of Radiofrequency Ablation
+Lesions</span>. Ultrasonic Imaging 36: 133–148. doi:<a
+href="https://doi.org/10.1177/0161734613519602">10.1177/0161734613519602</a></div>
 </div>
-<div id="ref-jensen2016" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline">Jensen JA, Rasmussen MF, Pihl MJ, Holbek S, Villagómez HCA, et al. (2016) Safety assessment of advanced imaging sequences i: measurements. IEEE transactions on ultrasonics, ferroelectrics, and frequency control 63: 110–119. doi:<a href="https://doi.org/10.1109/TUFFC.2015.2502987">10.1109/TUFFC.2015.2502987</a></div>
+<div id="ref-jensen2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div
+class="csl-right-inline">Jensen JA, Rasmussen MF, Pihl MJ, Holbek S,
+Villagómez HCA, et al. (2016) Safety assessment of advanced imaging
+sequences i: measurements. IEEE transactions on ultrasonics,
+ferroelectrics, and frequency control 63: 110–119. doi:<a
+href="https://doi.org/10.1109/TUFFC.2015.2502987">10.1109/TUFFC.2015.2502987</a></div>
 </div>
-<div id="ref-bottenus2016" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline">Bottenus N, Long W, Zhang H, Jakovljevic M, Bradway D, et al. (2016) Feasibility of swept synthetic aperture ultrasound imaging. doi:<a href="https://doi.org/10.1109/TMI.2016.2524992">10.1109/TMI.2016.2524992</a></div>
+<div id="ref-bottenus2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div
+class="csl-right-inline">Bottenus N, Long W, Zhang H, Jakovljevic M,
+Bradway D, et al. (2016) Feasibility of swept synthetic aperture
+ultrasound imaging. doi:<a
+href="https://doi.org/10.1109/TMI.2016.2524992">10.1109/TMI.2016.2524992</a></div>
 </div>
-<div id="ref-Long2017umb" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline">Long W, Hyun D, Roy Choudhury K, Bradway D, McNally P, et al. (2018) <span class="nocase">Clinical utility of fetal short-lag spatial coherence imaging</span>. Ultrasound in Medicine and Biology 44: 794–806. doi:<a href="https://doi.org/10.1016/j.ultrasmedbio.2017.12.006">10.1016/j.ultrasmedbio.2017.12.006</a></div>
+<div id="ref-Long2017umb" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div
+class="csl-right-inline">Long W, Hyun D, Roy Choudhury K, Bradway D,
+McNally P, et al. (2018) <span class="nocase">Clinical utility of fetal
+short-lag spatial coherence imaging</span>. Ultrasound in Medicine and
+Biology 44: 794–806. doi:<a
+href="https://doi.org/10.1016/j.ultrasmedbio.2017.12.006">10.1016/j.ultrasmedbio.2017.12.006</a></div>
 </div>
-<div id="ref-Flint2020" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline">Flint K, Bottenus N, Bradway D, McNally P, Ellestad S, et al. (2021) <span class="nocase">An Automated ALARA Method for Ultrasound: An Obstetric Ultrasound Feasibility Study</span>. Journal of Ultrasound in Medicine 40: 1863–1877. Available: <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jum.15570">https://onlinelibrary.wiley.com/doi/abs/10.1002/jum.15570</a>.</div>
+<div id="ref-Flint2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">13. </div><div
+class="csl-right-inline">Flint K, Bottenus N, Bradway D, McNally P,
+Ellestad S, et al. (2021) <span class="nocase">An Automated ALARA Method
+for Ultrasound: An Obstetric Ultrasound Feasibility Study</span>.
+Journal of Ultrasound in Medicine 40: 1863–1877. Available: <a
+href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jum.15570">https://onlinelibrary.wiley.com/doi/abs/10.1002/jum.15570</a>.</div>
 </div>
-<div id="ref-dobbins2019medical" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline">Dobbins JT, Frush DP, Kigongo CJ, MacFall JR, Reiman RE, et al. (2019) Medical imaging safety in global health radiology. Radiology in global health. Springer. pp. 85–105.</div>
+<div id="ref-Long_2022a" class="csl-entry" role="listitem">
+<div class="csl-left-margin">14. </div><div
+class="csl-right-inline">Long W, Bradway D, Ahmed R, Long J, Trahey GE
+(2022) Spatial coherence adaptive clutter filtering in color flow
+imaging—part i: Simulation studies. IEEE Open Journal of Ultrasonics,
+Ferroelectrics, and Frequency Control 2: 106–118. Available: <a
+href="http://dx.doi.org/10.1109/OJUFFC.2022.3184914">http://dx.doi.org/10.1109/OJUFFC.2022.3184914</a>.</div>
 </div>
-<div id="ref-eyerly2018acoustic" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline">Eyerly-Webb SA, Vejdani-Jahromi M, Kakkad V, Hollender P, Bradway D, et al. (2018) Acoustic radiation force-based ultrasound elastography for cardiac imaging applications. Ultrasound elastography for biomedical applications and medicine. John Wiley &amp; Sons. pp. 504–519.</div>
+<div id="ref-Long_2022b" class="csl-entry" role="listitem">
+<div class="csl-left-margin">15. </div><div
+class="csl-right-inline">Long W, Bradway D, Ahmed R, Long J, Trahey GE
+(2022) Spatial coherence adaptive clutter filtering in color flow
+imaging—part II: Phantom and in vivo experiments. IEEE Open Journal of
+Ultrasonics, Ferroelectrics, and Frequency Control 2: 119–130.
+Available: <a
+href="http://dx.doi.org/10.1109/OJUFFC.2022.3184909">http://dx.doi.org/10.1109/OJUFFC.2022.3184909</a>.</div>
 </div>
-<div id="ref-Hsu2007c" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">16. </div><div class="csl-right-inline">Hsu SJ, Bradway DP, Fahey BJ, Trahey GE (2007) <span class="nocase">Transthoracic Acoustic Radiation Force Impulse Imaging of the Cardiac Cycle</span>. Ultrasonic measurement and imaging of tissue elasticity.</div>
+<div id="ref-jin2023evaluationimaging" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline">Jin
+F, Kakkad V, Bradway D, LeFevre M, Kisslo J, et al. (2023) Evaluation of
+myocardial stiffness in cardiac amyloidosis using acoustic radiation
+force impulse and natural shear wave imaging. Ultrasound in medicine
+&amp; biology 49: 1719–1727. doi:<a
+href="https://doi.org/10.1016/j.ultrasmedbio.2023.03.016">10.1016/j.ultrasmedbio.2023.03.016</a></div>
 </div>
-<div id="ref-Bradway2007" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">17. </div><div class="csl-right-inline">Bradway DP, Hsu SJ, Fahey BJ, Dahl JJ, Nichols TC, et al. (2007) <span>6B-6 Transthoracic Cardiac Acoustic Radiation Force Impulse Imaging: A Feasibility Study</span>. IEEE. pp. 448–451. doi:<a href="https://doi.org/10.1109/ULTSYM.2007.121">10.1109/ULTSYM.2007.121</a></div>
+<div id="ref-Huber_2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">17. </div><div
+class="csl-right-inline">Huber MT, Bradway DP, McNally PJ, Ellestad SC,
+Trahey GE (2024) In vivo demonstration of a real-time temporal SNR
+acoustic output adjustment method. IEEE Transactions on Ultrasonics,
+Ferroelectrics, and Frequency Control 71: 960–971. Available: <a
+href="http://dx.doi.org/10.1109/TUFFC.2024.3402530">http://dx.doi.org/10.1109/TUFFC.2024.3402530</a>.</div>
 </div>
-<div id="ref-Fahey2007b" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">18. </div><div class="csl-right-inline">Fahey BJ, Nelson RC, Hsu SJ, Bradway DP, Dumont DM, et al. (2007) <span class="nocase">6B-4 In Vivo Acoustic Radiation Force Impulse Imaging of Abdominal Lesions</span>. 2007 IEEE ultrasonics symposium proceedings. IEEE. pp. 440–443. doi:<a href="https://doi.org/10.1109/ULTSYM.2007.119">10.1109/ULTSYM.2007.119</a></div>
+<div id="ref-dobbins2019medical" class="csl-entry" role="listitem">
+<div class="csl-left-margin">18. </div><div
+class="csl-right-inline">Dobbins JT, Frush DP, Kigongo CJ, MacFall JR,
+Reiman RE, et al. (2019) Medical imaging safety in global health
+radiology. Radiology in global health. Springer. pp. 85–105.</div>
 </div>
-<div id="ref-Bradway2009" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">19. </div><div class="csl-right-inline">Bradway DP, Fahey BJ, Nelson RC, Trahey GE (2009) <span class="nocase">ARFI imaging of abdominal ablation and liver lesion biopsy</span>. International symposium on ultrasonic imaging and tissue characterization, 2009. Available: <a href="http://uitc-symposium.org/2009_abstracts.pdf">http://uitc-symposium.org/2009_abstracts.pdf</a>.</div>
+<div id="ref-eyerly2018acoustic" class="csl-entry" role="listitem">
+<div class="csl-left-margin">19. </div><div
+class="csl-right-inline">Eyerly-Webb SA, Vejdani-Jahromi M, Kakkad V,
+Hollender P, Bradway D, et al. (2018) Acoustic radiation force-based
+ultrasound elastography for cardiac imaging applications. Ultrasound
+elastography for biomedical applications and medicine. John Wiley &amp;
+Sons. pp. 504–519.</div>
 </div>
-<div id="ref-Husarik2009" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">20. </div><div class="csl-right-inline">Husarik DB, Nelson RC, Bradway DP, Fahey BJ, Nightingale KR, et al. (2009) <span class="nocase">First Clinical Experience with Sonographic Elastography of the Liver Using Acoustic Radiation Force Impulse (ARFI) Imaging</span>. RSNA. Available: <a href="http://rsna2009.rsna.org/search">http://rsna2009.rsna.org/search</a>.</div>
+<div id="ref-Hsu2007c" class="csl-entry" role="listitem">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline">Hsu
+SJ, Bradway DP, Fahey BJ, Trahey GE (2007) <span
+class="nocase">Transthoracic Acoustic Radiation Force Impulse Imaging of
+the Cardiac Cycle</span>. Ultrasonic measurement and imaging of tissue
+elasticity.</div>
 </div>
-<div id="ref-Nelson2009" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">21. </div><div class="csl-right-inline">Nelson RC, Bradway DP, Fahey BJ, Trahey GE (2009) <span class="nocase">Future Application of Ultrasound: Acoustic Radiation Force Impulse (ARFI) Imaging</span>. AIUM. Available: <a href="http://www.aium.org/loginRequired/membersOnly/proceedings/2009.pdf">http://www.aium.org/loginRequired/membersOnly/proceedings/2009.pdf</a>.</div>
+<div id="ref-Bradway2007" class="csl-entry" role="listitem">
+<div class="csl-left-margin">21. </div><div
+class="csl-right-inline">Bradway DP, Hsu SJ, Fahey BJ, Dahl JJ, Nichols
+TC, et al. (2007) <span>6B-6 Transthoracic Cardiac Acoustic Radiation
+Force Impulse Imaging: A Feasibility Study</span>. IEEE. pp. 448–451.
+doi:<a
+href="https://doi.org/10.1109/ULTSYM.2007.121">10.1109/ULTSYM.2007.121</a></div>
 </div>
-<div id="ref-Bradway2009b" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">22. </div><div class="csl-right-inline">Bradway DP, Fahey BJ, Nelson RC, Trahey GE (2009) <span class="nocase">Recent Clinical Results of Acoustic Radiation Force Impulse Imaging of Abdominal Ablation</span>. International tissue elasticity conference. Available: <a href="http://www.elasticityconference.org/prior_conf/2009/PDF/2009Proceedings.pdf">http://www.elasticityconference.org/prior_conf/2009/PDF/2009Proceedings.pdf</a>.</div>
+<div id="ref-Fahey2007b" class="csl-entry" role="listitem">
+<div class="csl-left-margin">22. </div><div
+class="csl-right-inline">Fahey BJ, Nelson RC, Hsu SJ, Bradway DP, Dumont
+DM, et al. (2007) <span class="nocase">6B-4 In Vivo Acoustic Radiation
+Force Impulse Imaging of Abdominal Lesions</span>. 2007 IEEE ultrasonics
+symposium proceedings. IEEE. pp. 440–443. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2007.119">10.1109/ULTSYM.2007.119</a></div>
 </div>
-<div id="ref-Hsu2010" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">23. </div><div class="csl-right-inline">Hsu SJ, Bradway DP, Bouchard RR, Hollender PJ, Wolf PD, et al. (2010) <span class="nocase">Parametric pressure-volume analysis and acoustic radiation force impulse imaging of left ventricular function</span>. 2010 IEEE international ultrasonics symposium. IEEE. pp. 698–701. doi:<a href="https://doi.org/10.1109/ULTSYM.2010.5935661">10.1109/ULTSYM.2010.5935661</a></div>
+<div id="ref-Bradway2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">23. </div><div
+class="csl-right-inline">Bradway DP, Fahey BJ, Nelson RC, Trahey GE
+(2009) <span class="nocase">ARFI imaging of abdominal ablation and liver
+lesion biopsy</span>. International symposium on ultrasonic imaging and
+tissue characterization, 2009. Available: <a
+href="http://uitc-symposium.org/2009_abstracts.pdf">http://uitc-symposium.org/2009_abstracts.pdf</a>.</div>
 </div>
-<div id="ref-Hollender2010" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">24. </div><div class="csl-right-inline">Hollender PJ, Bouchard RR, Hsu SJ, Bradway DP, Wolf PD, et al. (2010) <span class="nocase">Intracardiac measurements of elasticity using Acoustic Radiation Force Impulse (ARFI) methods: Temporal and spatial stability of shear wave velocimetry</span>. 2010 IEEE international ultrasonics symposium. IEEE. pp. 698–701. doi:<a href="https://doi.org/10.1109/ULTSYM.2010.5935946">10.1109/ULTSYM.2010.5935946</a></div>
+<div id="ref-Husarik2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">24. </div><div
+class="csl-right-inline">Husarik DB, Nelson RC, Bradway DP, Fahey BJ,
+Nightingale KR, et al. (2009) <span class="nocase">First Clinical
+Experience with Sonographic Elastography of the Liver Using Acoustic
+Radiation Force Impulse (ARFI) Imaging</span>. RSNA. Available: <a
+href="http://rsna2009.rsna.org/search">http://rsna2009.rsna.org/search</a>.</div>
 </div>
-<div id="ref-Bradway2010" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">25. </div><div class="csl-right-inline">Bradway DP, Hsu SJ, Wolf PD, Trahey GE (2010) <span class="nocase">Acoustic Radiation Force Impulse Imaging of Acute Myocardial Ischemia and Infarct</span>. International symposium on ultrasonic imaging and tissue characterization. Available: <a href="http://uitc-symposium.org/2010_abstracts.pdf">http://uitc-symposium.org/2010_abstracts.pdf</a>.</div>
+<div id="ref-Nelson2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">25. </div><div
+class="csl-right-inline">Nelson RC, Bradway DP, Fahey BJ, Trahey GE
+(2009) <span class="nocase">Future Application of Ultrasound: Acoustic
+Radiation Force Impulse (ARFI) Imaging</span>. AIUM. Available: <a
+href="http://www.aium.org/loginRequired/membersOnly/proceedings/2009.pdf">http://www.aium.org/loginRequired/membersOnly/proceedings/2009.pdf</a>.</div>
 </div>
-<div id="ref-Bradway2010b" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">26. </div><div class="csl-right-inline">Bradway DP, Hsu SJ, Wolf PD, Trahey GE (2010) <span class="nocase">Transthoracic Acoustic Radiation Force Impulse Imaging of Cardiac Function</span>. International tissue elasticity conference. Available: <a href="http://www.elasticityconference.org/prior_conf/2010/PDF/2010Proceedings.pdf">http://www.elasticityconference.org/prior_conf/2010/PDF/2010Proceedings.pdf</a>.</div>
+<div id="ref-Bradway2009b" class="csl-entry" role="listitem">
+<div class="csl-left-margin">26. </div><div
+class="csl-right-inline">Bradway DP, Fahey BJ, Nelson RC, Trahey GE
+(2009) <span class="nocase">Recent Clinical Results of Acoustic
+Radiation Force Impulse Imaging of Abdominal Ablation</span>.
+International tissue elasticity conference. Available: <a
+href="http://www.elasticityconference.org/prior_conf/2009/PDF/2009Proceedings.pdf">http://www.elasticityconference.org/prior_conf/2009/PDF/2009Proceedings.pdf</a>.</div>
 </div>
-<div id="ref-Bradway2011" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">27. </div><div class="csl-right-inline">Bradway DP, Rosenzweig SR, Doherty JR, Hyun D, Trahey GE (2011) <span class="nocase">Recent Results and Advances in Transthoracic Cardiac Acoustic Radiation Force Impulse Imaging</span>. International symposium on ultrasonic imaging and tissue characterization. Available: <a href="http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf">http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf</a>.</div>
+<div id="ref-Hsu2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline">Hsu
+SJ, Bradway DP, Bouchard RR, Hollender PJ, Wolf PD, et al. (2010) <span
+class="nocase">Parametric pressure-volume analysis and acoustic
+radiation force impulse imaging of left ventricular function</span>.
+2010 IEEE international ultrasonics symposium. IEEE. pp. 698–701. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2010.5935661">10.1109/ULTSYM.2010.5935661</a></div>
 </div>
-<div id="ref-Byram2011" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">28. </div><div class="csl-right-inline">Byram BC, Gianantonio DM, Bradway DP, Hyun D, Jakovljevic M, et al. (2011) <span class="nocase">Direct in vivo Myocardial Infarct Visualization Using 3D Ultrasound and Passive Strain Contrast</span>. International tissue elasticity conference. Available: <a href="http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf">http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf</a>.</div>
+<div id="ref-Hollender2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">28. </div><div
+class="csl-right-inline">Hollender PJ, Bouchard RR, Hsu SJ, Bradway DP,
+Wolf PD, et al. (2010) <span class="nocase">Intracardiac measurements of
+elasticity using Acoustic Radiation Force Impulse (ARFI) methods:
+Temporal and spatial stability of shear wave velocimetry</span>. 2010
+IEEE international ultrasonics symposium. IEEE. pp. 698–701. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2010.5935946">10.1109/ULTSYM.2010.5935946</a></div>
 </div>
-<div id="ref-Byram2011b" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">29. </div><div class="csl-right-inline">Byram BC, Bradway DP, Jakovljevic M, Gianantonio D, Hyun D, et al. (2011) <span class="nocase">Direct In Vivo Myocardial Infarct Visualization Using 3D Ultrasound and Passive Strain Contrast</span>. IEEE ultrasonics symp. doi:<a href="https://doi.org/10.1109/ULTSYM.2011.0007">10.1109/ULTSYM.2011.0007</a></div>
+<div id="ref-Bradway2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">29. </div><div
+class="csl-right-inline">Bradway DP, Hsu SJ, Wolf PD, Trahey GE (2010)
+<span class="nocase">Acoustic Radiation Force Impulse Imaging of Acute
+Myocardial Ischemia and Infarct</span>. International symposium on
+ultrasonic imaging and tissue characterization. Available: <a
+href="http://uitc-symposium.org/2010_abstracts.pdf">http://uitc-symposium.org/2010_abstracts.pdf</a>.</div>
 </div>
-<div id="ref-Bradway2012" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">30. </div><div class="csl-right-inline">Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012) Feasibility and safety of transthoracic cardiac acoustic radiation force impulse imaging methods. 2012 IEEE international ultrasonics symposium. IEEE. pp. 2027–2030. doi:<a href="https://doi.org/10.1109/ULTSYM.2012.0507">10.1109/ULTSYM.2012.0507</a></div>
+<div id="ref-Bradway2010b" class="csl-entry" role="listitem">
+<div class="csl-left-margin">30. </div><div
+class="csl-right-inline">Bradway DP, Hsu SJ, Wolf PD, Trahey GE (2010)
+<span class="nocase">Transthoracic Acoustic Radiation Force Impulse
+Imaging of Cardiac Function</span>. International tissue elasticity
+conference. Available: <a
+href="http://www.elasticityconference.org/prior_conf/2010/PDF/2010Proceedings.pdf">http://www.elasticityconference.org/prior_conf/2010/PDF/2010Proceedings.pdf</a>.</div>
 </div>
-<div id="ref-Bradway2012b" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">31. </div><div class="csl-right-inline">Bradway DP, Hollender PJ, Goswami R, Wolf PD, Trahey GE (2012) <span class="nocase">Transthoracic Cardiac Acoustic Radiation Force Impulse Imaging: in vivo Feasibility, Methods, and Initial Results</span>. International symposium on ultrasonic imaging and tissue characterization, 2012. Available: <a href="http://uitc-symposium.org/2012_abstracts.pdf">http://uitc-symposium.org/2012_abstracts.pdf</a>.</div>
+<div id="ref-Bradway2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">31. </div><div
+class="csl-right-inline">Bradway DP, Rosenzweig SR, Doherty JR, Hyun D,
+Trahey GE (2011) <span class="nocase">Recent Results and Advances in
+Transthoracic Cardiac Acoustic Radiation Force Impulse Imaging</span>.
+International symposium on ultrasonic imaging and tissue
+characterization. Available: <a
+href="http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf">http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf</a>.</div>
 </div>
-<div id="ref-Hollender2012" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">32. </div><div class="csl-right-inline">Hollender PJ, Bradway DP, Goswami R, Wolf PD, Trahey GE (2012) <span class="nocase">Acoustic radiation force techniques for imaging cardiac infarct in vivo: methods and initial results</span>. International symposium on ultrasonic imaging and tissue characterization. Available: <a href="http://uitc-symposium.org/2012_abstracts.pdf">http://uitc-symposium.org/2012_abstracts.pdf</a>.</div>
+<div id="ref-Byram2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">32. </div><div
+class="csl-right-inline">Byram BC, Gianantonio DM, Bradway DP, Hyun D,
+Jakovljevic M, et al. (2011) <span class="nocase">Direct in vivo
+Myocardial Infarct Visualization Using 3D Ultrasound and Passive Strain
+Contrast</span>. International tissue elasticity conference. Available:
+<a
+href="http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf">http://www.elasticityconference.org/prior_conf/2011/PDF/2011ITECProceedings.pdf</a>.</div>
 </div>
-<div id="ref-Eyerly2012b" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">33. </div><div class="csl-right-inline">Eyerly SA, Bahnson T, Koontz J, Bradway DP, Dumont DM, et al. (2012) <span class="nocase">Confirmation of Cardiac Radiofrequency Ablation Treatment Using Intra-Procedure Acoustic Radiation Force Impulse Imaging</span>. IEEE ultrasonics symposium. doi:<a href="https://doi.org/10.1109/ULTSYM.2012.0509">10.1109/ULTSYM.2012.0509</a></div>
+<div id="ref-Byram2011b" class="csl-entry" role="listitem">
+<div class="csl-left-margin">33. </div><div
+class="csl-right-inline">Byram BC, Bradway DP, Jakovljevic M,
+Gianantonio D, Hyun D, et al. (2011) <span class="nocase">Direct In Vivo
+Myocardial Infarct Visualization Using 3D Ultrasound and Passive Strain
+Contrast</span>. IEEE ultrasonics symp. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2011.0007">10.1109/ULTSYM.2011.0007</a></div>
 </div>
-<div id="ref-Hollender2012b" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">34. </div><div class="csl-right-inline">Hollender PJ, Bradway DP, Wolf PD, Goswami R, Trahey GE (2012) <span class="nocase">Intracardiac ARF-driven Shear Wave Velocimetry to Estimate Regional Myocardial Stiffness and Contractility in Pigs with Focal Infarctions</span>. IEEE ultrasonics symposium. doi:<a href="https://doi.org/10.1109/ULTSYM.2012.0508">10.1109/ULTSYM.2012.0508</a></div>
+<div id="ref-Bradway2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">34. </div><div
+class="csl-right-inline">Bradway DP, Hollender PJ, Goswami R, Wolf PD,
+Trahey GE (2012) Feasibility and safety of transthoracic cardiac
+acoustic radiation force impulse imaging methods. 2012 IEEE
+international ultrasonics symposium. IEEE. pp. 2027–2030. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2012.0507">10.1109/ULTSYM.2012.0507</a></div>
 </div>
-<div id="ref-Goswami2013" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">35. </div><div class="csl-right-inline">Goswami R, Bradway D, Kisslo J, Trahey G (2013) <span class="nocase">Novel Application of Acoustic Radiation Force Impulse Imaging in Transthoracic Echocardiography</span>. Journal of the american college of cardiology. American College of Cardiology Foundation, Vol. 61. p. E1090. doi:<a href="https://doi.org/10.1016/S0735-1097(13)61090-6">10.1016/S0735-1097(13)61090-6</a></div>
+<div id="ref-Bradway2012b" class="csl-entry" role="listitem">
+<div class="csl-left-margin">35. </div><div
+class="csl-right-inline">Bradway DP, Hollender PJ, Goswami R, Wolf PD,
+Trahey GE (2012) <span class="nocase">Transthoracic Cardiac Acoustic
+Radiation Force Impulse Imaging: in vivo Feasibility, Methods, and
+Initial Results</span>. International symposium on ultrasonic imaging
+and tissue characterization, 2012. Available: <a
+href="http://uitc-symposium.org/2012_abstracts.pdf">http://uitc-symposium.org/2012_abstracts.pdf</a>.</div>
 </div>
-<div id="ref-Patel2013" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">36. </div><div class="csl-right-inline">Patel V, Dahl JJ, Bradway DP, Doherty JR, Smith SW (2013) <span class="nocase">Acoustic radiation force impulse imaging on an IVUS circular array</span>. 2013 IEEE international ultrasonics symposium (IUS). IEEE. pp. 773–776. doi:<a href="https://doi.org/10.1109/ULTSYM.2013.0199">10.1109/ULTSYM.2013.0199</a></div>
+<div id="ref-Hollender2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">36. </div><div
+class="csl-right-inline">Hollender PJ, Bradway DP, Goswami R, Wolf PD,
+Trahey GE (2012) <span class="nocase">Acoustic radiation force
+techniques for imaging cardiac infarct in vivo: methods and initial
+results</span>. International symposium on ultrasonic imaging and tissue
+characterization. Available: <a
+href="http://uitc-symposium.org/2012_abstracts.pdf">http://uitc-symposium.org/2012_abstracts.pdf</a>.</div>
 </div>
-<div id="ref-Bradway2014" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">37. </div><div class="csl-right-inline">Bradway DP, Pihl MJ, Krebs andreas, Tomov BG, Kjær CS, et al. (2014) <span class="nocase">Real-time GPU implementation of transverse oscillation vector velocity flow imaging</span>. SPIE medical imaging.Vol. 9040. pp. 90401Y-90401Y-6. doi:<a href="https://doi.org/10.1117/12.2043582">10.1117/12.2043582</a></div>
+<div id="ref-Eyerly2012b" class="csl-entry" role="listitem">
+<div class="csl-left-margin">37. </div><div
+class="csl-right-inline">Eyerly SA, Bahnson T, Koontz J, Bradway DP,
+Dumont DM, et al. (2012) <span class="nocase">Confirmation of Cardiac
+Radiofrequency Ablation Treatment Using Intra-Procedure Acoustic
+Radiation Force Impulse Imaging</span>. IEEE ultrasonics symposium.
+doi:<a
+href="https://doi.org/10.1109/ULTSYM.2012.0509">10.1109/ULTSYM.2012.0509</a></div>
 </div>
-<div id="ref-Bradway2015" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">38. </div><div class="csl-right-inline">Bradway DP, Hansen KL, Nielsen MB, Jensen JA (2015) <span class="nocase">Transverse oscillation vector flow imaging for transthoracic echocardiography</span>. SPIE medical imaging. pp. 941902-941902-7. doi:<a href="https://doi.org/10.1117/12.2081145">10.1117/12.2081145</a></div>
+<div id="ref-Hollender2012b" class="csl-entry" role="listitem">
+<div class="csl-left-margin">38. </div><div
+class="csl-right-inline">Hollender PJ, Bradway DP, Wolf PD, Goswami R,
+Trahey GE (2012) <span class="nocase">Intracardiac ARF-driven Shear Wave
+Velocimetry to Estimate Regional Myocardial Stiffness and Contractility
+in Pigs with Focal Infarctions</span>. IEEE ultrasonics symposium.
+doi:<a
+href="https://doi.org/10.1109/ULTSYM.2012.0508">10.1109/ULTSYM.2012.0508</a></div>
 </div>
-<div id="ref-Bottenus2015" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">39. </div><div class="csl-right-inline">Bottenus N, Long W, Bradway D, Trahey G (2015) Phantom and in vivo demonstration of swept synthetic aperture imaging. 2015 IEEE international ultrasonics symposium (IUS). pp. 1–4. doi:<a href="https://doi.org/10.1109/ULTSYM.2015.0075">10.1109/ULTSYM.2015.0075</a></div>
+<div id="ref-Goswami2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">39. </div><div
+class="csl-right-inline">Goswami R, Bradway D, Kisslo J, Trahey G (2013)
+<span class="nocase">Novel Application of Acoustic Radiation Force
+Impulse Imaging in Transthoracic Echocardiography</span>. Journal of the
+american college of cardiology. American College of Cardiology
+Foundation, Vol. 61. p. E1090. doi:<a
+href="https://doi.org/10.1016/S0735-1097(13)61090-6">10.1016/S0735-1097(13)61090-6</a></div>
 </div>
-<div id="ref-Kakkad2015" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">40. </div><div class="csl-right-inline">Kakkad V, Kuo L, Bradway D, Trahey G, Sivak J, et al. (2015) In vivo transthoracic measurements of acoustic radiation force induced displacements in the heart over the cardiac cycle. 2015 IEEE international ultrasonics symposium (IUS). pp. 1–5. doi:<a href="https://doi.org/10.1109/ULTSYM.2015.0155">10.1109/ULTSYM.2015.0155</a></div>
+<div id="ref-Patel2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">40. </div><div
+class="csl-right-inline">Patel V, Dahl JJ, Bradway DP, Doherty JR, Smith
+SW (2013) <span class="nocase">Acoustic radiation force impulse imaging
+on an IVUS circular array</span>. 2013 IEEE international ultrasonics
+symposium (IUS). IEEE. pp. 773–776. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2013.0199">10.1109/ULTSYM.2013.0199</a></div>
 </div>
-<div id="ref-Kakkad2017" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">41. </div><div class="csl-right-inline">Kakkad V, Ferlauto H, Bradway D, Heyde B, Kisslo J, et al. (2017) <span class="nocase">Clinical feasibility of a noninvasive method to interrogate myocardial function via strain and acoustic radiation force-derived stiffness</span>. IEEE international ultrasonics symposium, IUS. doi:<a href="https://doi.org/10.1109/ULTSYM.2017.8092067">10.1109/ULTSYM.2017.8092067</a></div>
+<div id="ref-Bradway2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">41. </div><div
+class="csl-right-inline">Bradway DP, Pihl MJ, Krebs andreas, Tomov BG,
+Kjær CS, et al. (2014) <span class="nocase">Real-time GPU implementation
+of transverse oscillation vector velocity flow imaging</span>. SPIE
+medical imaging.Vol. 9040. pp. 90401Y-90401Y-6. doi:<a
+href="https://doi.org/10.1117/12.2043582">10.1117/12.2043582</a></div>
 </div>
-<div id="ref-Hollender2017" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">42. </div><div class="csl-right-inline">Hollender P, Bottenus N, Bradway D, Trahey G (2017) <span class="nocase">Single track location comb-push ultrasound shear elastography (STL-CUSE)</span>. IEEE international ultrasonics symposium, IUS. doi:<a href="https://doi.org/10.1109/ULTSYM.2017.8092809">10.1109/ULTSYM.2017.8092809</a></div>
+<div id="ref-Bradway2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">42. </div><div
+class="csl-right-inline">Bradway DP, Hansen KL, Nielsen MB, Jensen JA
+(2015) <span class="nocase">Transverse oscillation vector flow imaging
+for transthoracic echocardiography</span>. SPIE medical imaging. pp.
+941902-941902-7. doi:<a
+href="https://doi.org/10.1117/12.2081145">10.1117/12.2081145</a></div>
 </div>
-<div id="ref-Long2017IUS" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">43. </div><div class="csl-right-inline">Long W, Hyun D, Choudhury K, Bradway D, McNally P, et al. (2017) Translation of fetal short-lag spatial coherence (SLSC) imaging into clinical practice: A pilot study. 2017 IEEE international ultrasonics symposium (IUS). pp. 1–1. doi:<a href="https://doi.org/10.1109/ULTSYM.2017.8091968">10.1109/ULTSYM.2017.8091968</a></div>
+<div id="ref-Bottenus2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">43. </div><div
+class="csl-right-inline">Bottenus N, Long W, Bradway D, Trahey G (2015)
+Phantom and in vivo demonstration of swept synthetic aperture imaging.
+2015 IEEE international ultrasonics symposium (IUS). pp. 1–4. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2015.0075">10.1109/ULTSYM.2015.0075</a></div>
 </div>
-<div id="ref-Flint2018" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">44. </div><div class="csl-right-inline">Flint K, Bottenus N, Long W, Bradway D, McNally P, et al. (2018) Implementation and clinical evaluation of a fetal ALARA ultrasound system. 2018 IEEE international ultrasonics symposium (IUS). pp. 1–4. doi:<a href="https://doi.org/10.1109/ULTSYM.2018.8579734">10.1109/ULTSYM.2018.8579734</a></div>
+<div id="ref-Kakkad2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">44. </div><div
+class="csl-right-inline">Kakkad V, Kuo L, Bradway D, Trahey G, Sivak J,
+et al. (2015) In vivo transthoracic measurements of acoustic radiation
+force induced displacements in the heart over the cardiac cycle. 2015
+IEEE international ultrasonics symposium (IUS). pp. 1–5. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2015.0155">10.1109/ULTSYM.2015.0155</a></div>
 </div>
-<div id="ref-Bernard2018" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">45. </div><div class="csl-right-inline">Bernard O, Bradway D, Hansen HHG, Kruizinga P, Nair A, et al. (2018) <span>The Ultrasound File Format (UFF) - First Draft</span>. 2018 IEEE international ultrasonics symposium. IEEE.</div>
+<div id="ref-Kakkad2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">45. </div><div
+class="csl-right-inline">Kakkad V, Ferlauto H, Bradway D, Heyde B,
+Kisslo J, et al. (2017) <span class="nocase">Clinical feasibility of a
+noninvasive method to interrogate myocardial function via strain and
+acoustic radiation force-derived stiffness</span>. IEEE international
+ultrasonics symposium, IUS. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2017.8092067">10.1109/ULTSYM.2017.8092067</a></div>
 </div>
-<div id="ref-Hollender2019" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">46. </div><div class="csl-right-inline">Hollender P, Noor S, Bradway D, Trahey G (2019) <span class="nocase">Force-Map Normalization for ARFI Imaging</span>. 2019 IEEE international ultrasonics symposium. IEEE. pp. 411–414.</div>
+<div id="ref-Hollender2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">46. </div><div
+class="csl-right-inline">Hollender P, Bottenus N, Bradway D, Trahey G
+(2017) <span class="nocase">Single track location comb-push ultrasound
+shear elastography (STL-CUSE)</span>. IEEE international ultrasonics
+symposium, IUS. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2017.8092809">10.1109/ULTSYM.2017.8092809</a></div>
 </div>
-<div id="ref-Huber2021" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">47. </div><div class="csl-right-inline">Huber M, Flint K, Barre E, Bradway D, McNally P, et al. (2021) Mechanisms affecting ALARA MI selected in adaptive ultrasound imaging. 2021 IEEE international ultrasonics symposium (IUS). pp. 1–4. doi:<a href="https://doi.org/10.1109/IUS52206.2021.9593860">10.1109/IUS52206.2021.9593860</a></div>
+<div id="ref-Long2017IUS" class="csl-entry" role="listitem">
+<div class="csl-left-margin">47. </div><div
+class="csl-right-inline">Long W, Hyun D, Choudhury K, Bradway D, McNally
+P, et al. (2017) Translation of fetal short-lag spatial coherence (SLSC)
+imaging into clinical practice: A pilot study. 2017 IEEE international
+ultrasonics symposium (IUS). pp. 1–1. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2017.8091968">10.1109/ULTSYM.2017.8091968</a></div>
+</div>
+<div id="ref-Flint2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">48. </div><div
+class="csl-right-inline">Flint K, Bottenus N, Long W, Bradway D, McNally
+P, et al. (2018) Implementation and clinical evaluation of a fetal ALARA
+ultrasound system. 2018 IEEE international ultrasonics symposium (IUS).
+pp. 1–4. doi:<a
+href="https://doi.org/10.1109/ULTSYM.2018.8579734">10.1109/ULTSYM.2018.8579734</a></div>
+</div>
+<div id="ref-Bernard2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">49. </div><div
+class="csl-right-inline">Bernard O, Bradway D, Hansen HHG, Kruizinga P,
+Nair A, et al. (2018) <span>The Ultrasound File Format (UFF) - First
+Draft</span>. 2018 IEEE international ultrasonics symposium. IEEE.</div>
+</div>
+<div id="ref-Hollender2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">50. </div><div
+class="csl-right-inline">Hollender P, Noor S, Bradway D, Trahey G (2019)
+<span class="nocase">Force-Map Normalization for ARFI Imaging</span>.
+2019 IEEE international ultrasonics symposium. IEEE. pp. 411–414.</div>
+</div>
+<div id="ref-Huber2021" class="csl-entry" role="listitem">
+<div class="csl-left-margin">51. </div><div
+class="csl-right-inline">Huber M, Flint K, Barre E, Bradway D, McNally
+P, et al. (2021) Mechanisms affecting ALARA MI selected in adaptive
+ultrasound imaging. 2021 IEEE international ultrasonics symposium (IUS).
+pp. 1–4. doi:<a
+href="https://doi.org/10.1109/IUS52206.2021.9593860">10.1109/IUS52206.2021.9593860</a></div>
+</div>
+<div id="ref-srinivasan2024characterization3drswei" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">52. </div><div
+class="csl-right-inline">Srinivasan S, Yoon D, Ruding M, Eckstein K,
+Rouze N, et al. (2024) Characterization of anisotropic lattice
+structured phantoms using 3D-rotational shear wave elasticity imaging
+(3D-RSWEI). IEEE ultrasonics, ferroelectrics, and frequency control
+joint symposium, UFFC-JS 2024 - proceedings. doi:<a
+href="https://doi.org/10.1109/UFFC-JS60046.2024.10793726">10.1109/UFFC-JS60046.2024.10793726</a></div>
 </div>
 </div>
 </body>

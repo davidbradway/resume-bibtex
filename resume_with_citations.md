@@ -1,21 +1,21 @@
 <david.bradway@duke.edu>  
-Research Scientist, Biomedical Engineering  
+Senior Research Scientist, Biomedical Engineering  
 Duke University, Durham, NC 27708 USA  
 
 ## Objective
 
 *   Use technical and administrative skills to facilitate projects advancing state of the art imaging techniques
--   Utilize knowledge of data science, visualization, imaging, and research operations at Duke
+-   Utilize and grow knowledge of data science, visualization, imaging, and research operations at Duke
 *   Further refine skills in project and program management, science and engineering, and research and development
 
 ## Work Experience
 
 *   **Duke University** (Durham, NC, USA)
 
-    Research Scientist, Laboratory of Gregg Trahey, 2014 - present
+    Senior Resarch Scientist/Research Scientist, Biomedical Engienering, 2014 - present
 
-    -   Clincal research coordination for studies on ultrsound imaging in the engineering lab, as well as hospital fetal and liver clinics
-    -   Collaborate with industry and academic partners and Duke graduate students on NIH grants
+    -   Coordinating and carrying out clincal research studies on ultrsound imaging in the engineering lab and hospital fetal and liver clinics
+    -   Collaborating with industry and academic partners and Duke graduate students on NIH grants
     -   Developing technical tools, managing data and documentation for the lab group
 
 *   **Technical University of Denmark (DTU)** (Kongens Lyngby, Denmark)
@@ -56,6 +56,7 @@ Duke University, Durham, NC 27708 USA
 
 ## Teaching
 
+*   Instructor, Signal Processing and Applied Mathematics, BME 671L (2024)
 *   Co-Instructor, Instructor, Adv. Top. Lab for Grads in BME - Intro. to Electronics Biomedical Engineering 790L (2018, 2019)
 *   Instructor, Ultrasound module of Medical Physics 731 (2015, 2016)
 *   Guest lecturer, Biomedical Engineering 590 (2016)
@@ -67,8 +68,9 @@ Duke University, Durham, NC 27708 USA
 
 ## Invention Disclosures and Patents
 
-*   Duke IDF #a3348ed7: "Split Aperture ARFI / SWEI"
-*   Duke IDF #540: "Visual Feedback for Improved Triggered Acquisitions for Ultrasound Imaging"
+*   Duke IDF #T-004547: "Low-Cost, Portable Ultrasound Shear Wave Device for Characterization of Material Viscoelasticity"
+*   Duke IDF #T-006652: "Split Aperture ARFI / SWEI"
+*   Duke IDF #T-005110: "Visual Feedback for Improved Triggered Acquisitions for Ultrasound Imaging" - Licensed Non-Exclusive
 *   Trahey, G., Long, W., Hollender, P., Bradway, D., Kakkad, V. and Bottenus, N., Duke University, 2021. Methods, systems and computer program products for triggering ultrasound data acquisition. U.S. Patent 10,969,487.
 
 ## Honors and Activities
@@ -83,7 +85,8 @@ Duke University, Durham, NC 27708 USA
 
 *   Early Career Professional Development in Medical Imaging Workshop, SPIE Medical Imaging (2015)
 *   Associate Editor, Ultrasonic Imaging journal (2016-)
-*   Reviewer for the journals Ultrasound in Medicine and Biology, Ultrasonic Imaging, and IEEE Transactions on Medical Imaging, Journal of Medical Imaging
+*   Associate Editor, Open Journal of IEEE UFFC (2025-)
+*   Reviewer for the journals Ultrasound in Medicine and Biology, Physics in Medicine and Biology, Ultrasonic Imaging, eBioMedicine, IEEE Transactions on Medical Imaging, and Journal of Medical Imaging
 *   Duke Machine Learning Summer School (2019)
 *   Hands-On Deep Learning for Processing of Biosignals Short Course. ASSIST Center, North Carolina State University (2021)
 
@@ -96,13 +99,13 @@ Duke University, Durham, NC 27708 USA
 *   Personal hardware and software projects in embedded systems: [Arduino](http://www.arduino.cc/), [Raspberry Pi](http://www.raspberrypi.org/)
 
 ### Journal Articles
-[@Fahey2008a;@Fahey2008c;@Nightingale2008;@Nightingale2009;@Wolf2011;@Eyerly2012;@Hollender2013;@Patel2014;@Eyerly2014;@jensen2016;@bottenus2016;@Long2017umb;@Flint2020]
+[@Fahey2008a;@Fahey2008c;@Nightingale2008;@Nightingale2009;@Wolf2011;@Eyerly2012;@Hollender2013;@Patel2014;@Eyerly2014;@jensen2016;@bottenus2016;@Long2017umb;@Flint2020;@Long_2022a;@Long_2022b;@jin2023evaluationimaging;@Huber_2024]
 
 ### Book Chapters
 [@dobbins2019medical;@eyerly2018acoustic]
 
 ### Abstracts and Proceedings
-[@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014;@Bradway2015;@Bottenus2015;@Kakkad2015;@Kakkad2017;@Hollender2017;@Long2017IUS;@Flint2018;@Bernard2018;@Hollender2019;@Huber2021]
+[@Hsu2007c;@Bradway2007;@Fahey2007b;@Bradway2009;@Husarik2009;@Nelson2009;@Bradway2009b;@Hsu2010;@Hollender2010;@Bradway2010;@Bradway2010b;@Bradway2011;@Byram2011;@Byram2011b;@Bradway2012;@Bradway2012b;@Hollender2012;@Eyerly2012b;@Hollender2012b;@Goswami2013;@Patel2013;@Bradway2014;@Bradway2015;@Bottenus2015;@Kakkad2015;@Kakkad2017;@Hollender2017;@Long2017IUS;@Flint2018;@Bernard2018;@Hollender2019;@Huber2021;@srinivasan2024characterization3drswei]
 
 ## Publications
 
