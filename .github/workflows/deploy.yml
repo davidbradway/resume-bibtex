@@ -8,8 +8,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Make PDF
-      - uses: docker://pandoc/latex:3.5
+      - name: create dir
+        run: |
+          mkdir output  # create output dir
+
+      - name: Make PDF
+        uses: docker://pandoc/latex:3.5
         with:
           args: >-  # allows you to break string into multiple lines
             -s
@@ -21,8 +25,8 @@ jobs:
             -o output/resume.pdf
             resume_with_citations.md
 
-      # Make TeX
-      - uses: docker://pandoc/latex:3.5
+      - name: Make TeX
+        uses: docker://pandoc/latex:3.5
         with:
           args: >-  # allows you to break string into multiple lines
             -s
@@ -34,8 +38,8 @@ jobs:
             -o output/resume.tex
             resume_with_citations.md
 
-      # Make Word Doc
-      - uses: docker://pandoc/latex:3.5
+      - name: Make Word Doc
+        uses: docker://pandoc/latex:3.5
         with:
           args: >-  # allows you to break string into multiple lines
             -s
@@ -47,8 +51,8 @@ jobs:
             -o output/resume.docx
             resume_with_citations.md
 
-      # Make HTML page
-      - uses: docker://pandoc/latex:3.5
+      - name: Make HTML page
+        uses: docker://pandoc/latex:3.5
         with:
           args: >-  # allows you to break string into multiple lines
             -s
@@ -59,8 +63,8 @@ jobs:
             -o output/resume.html
             resume_with_citations.md
 
-      # Make ReST file
-      - uses: docker://pandoc/latex:3.5
+      - name: Make ReST file
+        uses: docker://pandoc/latex:3.5
         with:
           args: >-  # allows you to break string into multiple lines
             -s
