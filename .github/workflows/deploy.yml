@@ -18,7 +18,7 @@ jobs:
             --csl plos.csl
             --metadata title="David Pierson Bradway, Ph.D."
             --citeproc
-            -o resume.pdf
+            -o output/resume.pdf
             resume_with_citations.md
 
       # Make TeX
@@ -31,7 +31,7 @@ jobs:
             --csl plos.csl
             --metadata title="David Pierson Bradway, Ph.D."
             --citeproc
-            -o resume.tex
+            -o output/resume.tex
             resume_with_citations.md
 
       # Make Word Doc
@@ -44,7 +44,7 @@ jobs:
             --csl plos.csl
             --metadata title="David Pierson Bradway, Ph.D."
             --citeproc
-            -o resume.docx
+            -o output/resume.docx
             resume_with_citations.md
 
       # Make HTML page
@@ -56,7 +56,7 @@ jobs:
             --csl plos.csl
             --metadata title="David Pierson Bradway, Ph.D."
             --citeproc
-            -o resume.html
+            -o output/resume.html
             resume_with_citations.md
 
       # Make ReST file
@@ -69,11 +69,11 @@ jobs:
             --csl plos.csl
             --metadata title="David Pierson Bradway, Ph.D."
             --citeproc
-            -o resume.rst
+            -o output/resume.rst
             resume_with_citations.md
 
       - name: Publish files
         uses: actions/upload-artifact@v4
         with:
           name: resume
-          path: ./resume.*
+          path: output
