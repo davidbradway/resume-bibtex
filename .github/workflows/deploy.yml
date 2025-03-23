@@ -1,0 +1,71 @@
+name: Long Usage
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-22.04
+    steps:
+      # Make PDF
+      - uses: docker://pandoc/latex:3.5
+        with:
+          args: >-  # allows you to break string into multiple lines
+            -s
+            -H margins.sty
+            --bibliography mendeley.bib
+            --csl plos.csl
+            --metadata title="David Pierson Bradway, Ph.D."
+            --citeproc
+            -o resume.pdf
+            resume_with_citations.md
+
+      # Make TeX
+      - uses: docker://pandoc/latex:3.5
+        with:
+          args: >-  # allows you to break string into multiple lines
+            -s
+            -H margins.sty
+            --bibliography mendeley.bib
+            --csl plos.csl
+            --metadata title="David Pierson Bradway, Ph.D."
+            --citeproc
+            -o resume.tex
+            resume_with_citations.md
+
+      # Make Word Doc
+      - uses: docker://pandoc/latex:3.5
+        with:
+          args: >-  # allows you to break string into multiple lines
+            -s
+            -H margins.sty
+            --bibliography mendeley.bib
+            --csl plos.csl
+            --metadata title="David Pierson Bradway, Ph.D."
+            --citeproc
+            -o resume.docx
+            resume_with_citations.md
+
+      # Make HTML page
+      - uses: docker://pandoc/latex:3.5
+        with:
+          args: >-  # allows you to break string into multiple lines
+            -s
+            --bibliography mendeley.bib
+            --csl plos.csl
+            --metadata title="David Pierson Bradway, Ph.D."
+            --citeproc
+            -o resume.html
+            resume_with_citations.md
+
+      # Make ReST file
+      - uses: docker://pandoc/latex:3.5
+        with:
+          args: >-  # allows you to break string into multiple lines
+            -s
+            -t rst
+            --bibliography mendeley.bib
+            --csl plos.csl
+            --metadata title="David Pierson Bradway, Ph.D."
+            --citeproc
+            -o resume.rst
+            resume_with_citations.md
