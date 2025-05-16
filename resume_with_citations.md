@@ -12,7 +12,7 @@ Duke University, Durham, NC 27708 USA
 
 *   **Duke University** (Durham, NC, USA)
 
-    Senior Resarch Scientist/Research Scientist, Biomedical Engienering, 2014 - present
+    Senior Research Scientist/Research Scientist, Biomedical Engineering, 2014 - present
 
     -   Coordinating and carrying out clincal research studies on ultrsound imaging in the engineering lab and hospital fetal and liver clinics
     -   Collaborating with industry and academic partners and Duke graduate students on NIH grants
